@@ -1,0 +1,2729 @@
+[
+  {
+    "osm_id": 2294311,
+    "osm_name": "Kildare Street",
+    "lat": 53.3420977,
+    "lon": -6.254595,
+    "reverse_geocoded_road": "Kildare Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3788065,
+    "osm_name": "Eden Quay",
+    "lat": 53.347605,
+    "lon": -6.2589664,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3788281,
+    "osm_name": "Tara Street",
+    "lat": 53.3453239,
+    "lon": -6.2551447,
+    "reverse_geocoded_road": "Tara Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3791031,
+    "osm_name": "Clare Street",
+    "lat": 53.341256,
+    "lon": -6.2510039,
+    "reverse_geocoded_road": "Clare Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3791443,
+    "osm_name": "Broombridge Road",
+    "lat": 53.3738334,
+    "lon": -6.2998678,
+    "reverse_geocoded_road": "Broombridge Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3792427,
+    "osm_name": "Hume Street",
+    "lat": 53.3376287,
+    "lon": -6.2543297,
+    "reverse_geocoded_road": "Hume Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3792428,
+    "osm_name": "Ely Place",
+    "lat": 53.3376077,
+    "lon": -6.2540681,
+    "reverse_geocoded_road": "Ely Place",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3793938,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3761635,
+    "lon": -6.250008,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3819294,
+    "osm_name": "Naas Road",
+    "lat": 53.3263271,
+    "lon": -6.3442612,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3819413,
+    "osm_name": "Con Colbert Road",
+    "lat": 53.3434202,
+    "lon": -6.3095429,
+    "reverse_geocoded_road": "Con Colbert Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3819414,
+    "osm_name": "Con Colbert Road",
+    "lat": 53.3429454,
+    "lon": -6.3177445,
+    "reverse_geocoded_road": "Con Colbert Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 3819444,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3428441,
+    "lon": -6.3200372,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4074531,
+    "osm_name": "Lincoln Place",
+    "lat": 53.341965,
+    "lon": -6.2521841,
+    "reverse_geocoded_road": "Lincoln Place",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4074537,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3451083,
+    "lon": -6.3331694,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4253728,
+    "osm_name": "Pearse Street",
+    "lat": 53.3452615,
+    "lon": -6.2552587,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4278190,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3470686,
+    "lon": -6.3395154,
+    "reverse_geocoded_road": "Chapelizod Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4278192,
+    "osm_name": "Lucan Road",
+    "lat": 53.350838,
+    "lon": -6.3517661,
+    "reverse_geocoded_road": "Lucan Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4278193,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3498292,
+    "lon": -6.3545117,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4375651,
+    "osm_name": "College Green",
+    "lat": 53.3444059,
+    "lon": -6.2595766,
+    "reverse_geocoded_road": "College Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4395627,
+    "osm_name": "Granby Row",
+    "lat": 53.3538773,
+    "lon": -6.2659894,
+    "reverse_geocoded_road": "Granby Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4402100,
+    "osm_name": "Lucan Road",
+    "lat": 53.3522682,
+    "lon": -6.3567698,
+    "reverse_geocoded_road": "Lucan Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4472590,
+    "osm_name": "Leeson Street Lower",
+    "lat": 53.3354135,
+    "lon": -6.2563093,
+    "reverse_geocoded_road": "Leeson Street Lower",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4472591,
+    "osm_name": "College Street",
+    "lat": 53.345517,
+    "lon": -6.2579095,
+    "reverse_geocoded_road": "College Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4475677,
+    "osm_name": "College Green",
+    "lat": 53.3448396,
+    "lon": -6.2592158,
+    "reverse_geocoded_road": "Westmoreland Street",
+    "similarity": 0.38,
+    "match": false
+  },
+  {
+    "osm_id": 4571776,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3480499,
+    "lon": -6.2935629,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4628796,
+    "osm_name": "Earlsfort Terrace",
+    "lat": 53.3351377,
+    "lon": -6.2578658,
+    "reverse_geocoded_road": "Earlsfort Terrace",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4915346,
+    "osm_name": "Naas Road",
+    "lat": 53.3274473,
+    "lon": -6.3407048,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 4934682,
+    "osm_name": "Pearse Street",
+    "lat": 53.3437534,
+    "lon": -6.2474743,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 12341234,
+    "osm_name": "Talbot Place",
+    "lat": 53.3502181,
+    "lon": -6.2518648,
+    "reverse_geocoded_road": "Talbot Place",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 12341246,
+    "osm_name": "Store Street",
+    "lat": 53.3501349,
+    "lon": -6.2519614,
+    "reverse_geocoded_road": "Talbot Place",
+    "similarity": 0.25,
+    "match": false
+  },
+  {
+    "osm_id": 12341256,
+    "osm_name": "College Street",
+    "lat": 53.3457597,
+    "lon": -6.2570413,
+    "reverse_geocoded_road": "College Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 12854625,
+    "osm_name": "Wolfe Tone Quay",
+    "lat": 53.3477667,
+    "lon": -6.2918271,
+    "reverse_geocoded_road": "Wolfe Tone Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 14047769,
+    "osm_name": "Sackville Place",
+    "lat": 53.348949,
+    "lon": -6.2592131,
+    "reverse_geocoded_road": "Sackville Place",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 14047793,
+    "osm_name": "Cavendish Row",
+    "lat": 53.3531004,
+    "lon": -6.2618361,
+    "reverse_geocoded_road": "Cavendish Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 14507246,
+    "osm_name": "Botanic Road",
+    "lat": 53.3681165,
+    "lon": -6.2701379,
+    "reverse_geocoded_road": "Botanic Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 22978622,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3449336,
+    "lon": -6.3031877,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 22978649,
+    "osm_name": "Con Colbert Road",
+    "lat": 53.3429675,
+    "lon": -6.3155959,
+    "reverse_geocoded_road": "Con Colbert Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 22978775,
+    "osm_name": "Tyrconnell Road",
+    "lat": 53.33569,
+    "lon": -6.3266341,
+    "reverse_geocoded_road": "Tyrconnell Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 24953749,
+    "osm_name": "Westmoreland Street",
+    "lat": 53.345203,
+    "lon": -6.2591275,
+    "reverse_geocoded_road": "Westmoreland Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 24954647,
+    "osm_name": "Wolfe Tone Quay",
+    "lat": 53.3475008,
+    "lon": -6.290651,
+    "reverse_geocoded_road": "Wolfe Tone Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 24954717,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3525334,
+    "lon": -6.3589503,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 24973955,
+    "osm_name": "Pearse Street",
+    "lat": 53.3456144,
+    "lon": -6.2568525,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 24973956,
+    "osm_name": "College Street",
+    "lat": 53.3450707,
+    "lon": -6.2589584,
+    "reverse_geocoded_road": "College Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 25094727,
+    "osm_name": "Bachelors Walk",
+    "lat": 53.3472205,
+    "lon": -6.2606647,
+    "reverse_geocoded_road": "Bachelors Walk",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 33854097,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3460147,
+    "lon": -6.2936082,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 33924360,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3465644,
+    "lon": -6.3343702,
+    "reverse_geocoded_road": "Chapelizod Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 37692415,
+    "osm_name": "Cavendish Row",
+    "lat": 53.3527666,
+    "lon": -6.2614439,
+    "reverse_geocoded_road": "Cavendish Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 37812573,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.371903,
+    "lon": -6.2530616,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 37958114,
+    "osm_name": "Naas Road",
+    "lat": 53.3275871,
+    "lon": -6.3394734,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 39675693,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3438656,
+    "lon": -6.3065826,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 39675706,
+    "osm_name": "Con Colbert Road",
+    "lat": 53.3433722,
+    "lon": -6.3114543,
+    "reverse_geocoded_road": "Con Colbert Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 41851356,
+    "osm_name": "Westland Row",
+    "lat": 53.3428119,
+    "lon": -6.2500984,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 43981320,
+    "osm_name": "Hawkins Street",
+    "lat": 53.3471004,
+    "lon": -6.2571979,
+    "reverse_geocoded_road": "Hawkins Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 49961187,
+    "osm_name": "Parnell Square East",
+    "lat": 53.3534566,
+    "lon": -6.2622538,
+    "reverse_geocoded_road": "Parnell Square East",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 53750891,
+    "osm_name": "Dawson Street",
+    "lat": 53.3416918,
+    "lon": -6.2581198,
+    "reverse_geocoded_road": "Dawson Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 55979303,
+    "osm_name": "College Green",
+    "lat": 53.3445994,
+    "lon": -6.2595599,
+    "reverse_geocoded_road": "College Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 58403844,
+    "osm_name": "Custom House Quay",
+    "lat": 53.3482348,
+    "lon": -6.2514002,
+    "reverse_geocoded_road": "Custom House Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 68748138,
+    "osm_name": "College Green",
+    "lat": 53.3445131,
+    "lon": -6.259458,
+    "reverse_geocoded_road": "College Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 70410634,
+    "osm_name": "George's Quay",
+    "lat": 53.347446,
+    "lon": -6.2546965,
+    "reverse_geocoded_road": "George's Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 70595235,
+    "osm_name": "Tara Street",
+    "lat": 53.3462544,
+    "lon": -6.2551467,
+    "reverse_geocoded_road": "Tara Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 70595240,
+    "osm_name": "Tara Street",
+    "lat": 53.3473819,
+    "lon": -6.2550104,
+    "reverse_geocoded_road": "Tara Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 74232837,
+    "osm_name": "College Street",
+    "lat": 53.3456146,
+    "lon": -6.2570411,
+    "reverse_geocoded_road": "College Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 74232843,
+    "osm_name": "Hawkins Street",
+    "lat": 53.3459663,
+    "lon": -6.2569949,
+    "reverse_geocoded_road": "Hawkins Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 74233405,
+    "osm_name": "Grafton Street",
+    "lat": 53.3440193,
+    "lon": -6.2592129,
+    "reverse_geocoded_road": "Grafton Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 83805234,
+    "osm_name": "Memorial Road",
+    "lat": 53.3484014,
+    "lon": -6.2515122,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 98070111,
+    "osm_name": "Bus\u00e1ras",
+    "lat": 53.3495359,
+    "lon": -6.2517439,
+    "reverse_geocoded_road": "Bus\u00e1ras",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 114207151,
+    "osm_name": "Matt Talbot Memorial Bridge",
+    "lat": 53.3482432,
+    "lon": -6.2515549,
+    "reverse_geocoded_road": "Custom House Quay",
+    "similarity": 0.09,
+    "match": false
+  },
+  {
+    "osm_id": 114207152,
+    "osm_name": "Memorial Road",
+    "lat": 53.3487014,
+    "lon": -6.2514574,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 114207514,
+    "osm_name": "Memorial Road",
+    "lat": 53.3489688,
+    "lon": -6.2515265,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 116019739,
+    "osm_name": "Swords Road",
+    "lat": 53.3826937,
+    "lon": -6.244302,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 153340546,
+    "osm_name": "Memorial Road",
+    "lat": 53.3493084,
+    "lon": -6.2520944,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 161736182,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3480619,
+    "lon": -6.2929148,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 229143743,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3479193,
+    "lon": -6.2920495,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 230129077,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3480078,
+    "lon": -6.2915618,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 230687464,
+    "osm_name": "Conyngham Road",
+    "lat": 53.3483208,
+    "lon": -6.3038939,
+    "reverse_geocoded_road": "Conyngham Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 257129424,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3444441,
+    "lon": -6.3397939,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 257129432,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3452251,
+    "lon": -6.3336561,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 257129438,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3461206,
+    "lon": -6.3471053,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 257129441,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3445748,
+    "lon": -6.3389067,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 257141495,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3500788,
+    "lon": -6.352616,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 257141505,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3460004,
+    "lon": -6.3467725,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 257141508,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3500864,
+    "lon": -6.3535909,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 271093435,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3473188,
+    "lon": -6.2572058,
+    "reverse_geocoded_road": "Hawkins Street",
+    "similarity": 0.29,
+    "match": false
+  },
+  {
+    "osm_id": 271848004,
+    "osm_name": "St. Stephen's Green",
+    "lat": 53.3380562,
+    "lon": -6.2557,
+    "reverse_geocoded_road": "St. Stephen's Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 276390343,
+    "osm_name": "Lucan Road",
+    "lat": 53.3516935,
+    "lon": -6.3549992,
+    "reverse_geocoded_road": "Lucan Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 282571110,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3474244,
+    "lon": -6.2573668,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 282571111,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3473831,
+    "lon": -6.2573607,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 293292681,
+    "osm_name": "Sarsfield Road",
+    "lat": 53.3415946,
+    "lon": -6.3192409,
+    "reverse_geocoded_road": "Sarsfield Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 317127398,
+    "osm_name": "Botanic Road",
+    "lat": 53.3659362,
+    "lon": -6.2713974,
+    "reverse_geocoded_road": "Prospect Road",
+    "similarity": 0.56,
+    "match": true
+  },
+  {
+    "osm_id": 317619312,
+    "osm_name": "Sarsfield Road",
+    "lat": 53.3416412,
+    "lon": -6.3242643,
+    "reverse_geocoded_road": "Sarsfield Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 318417996,
+    "osm_name": "Naas Road",
+    "lat": 53.3284244,
+    "lon": -6.3359379,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 318710333,
+    "osm_name": "Lucan Road",
+    "lat": 53.3522753,
+    "lon": -6.3567898,
+    "reverse_geocoded_road": "Lucan Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 319624628,
+    "osm_name": "Parnell Square East",
+    "lat": 53.354379,
+    "lon": -6.263341,
+    "reverse_geocoded_road": "Parnell Square East",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 344354262,
+    "osm_name": "St. Stephen's Green",
+    "lat": 53.337418,
+    "lon": -6.2562487,
+    "reverse_geocoded_road": "St. Stephen's Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 361409607,
+    "osm_name": "Arran Quay",
+    "lat": 53.3465651,
+    "lon": -6.2799588,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 362939724,
+    "osm_name": "Pearse Street",
+    "lat": 53.3450994,
+    "lon": -6.2544127,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 362939725,
+    "osm_name": "Tara Street",
+    "lat": 53.3467704,
+    "lon": -6.2551167,
+    "reverse_geocoded_road": "Tara Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 362967238,
+    "osm_name": "Westland Row",
+    "lat": 53.3441043,
+    "lon": -6.2495398,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 368932685,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3735222,
+    "lon": -6.2519675,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 368932686,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3754588,
+    "lon": -6.2506497,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 369154713,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3463491,
+    "lon": -6.3302649,
+    "reverse_geocoded_road": "Chapelizod Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 369154715,
+    "osm_name": "Conyngham Road",
+    "lat": 53.3483473,
+    "lon": -6.3051586,
+    "reverse_geocoded_road": "Conyngham Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 372838324,
+    "osm_name": "Pearse Street",
+    "lat": 53.3445514,
+    "lon": -6.251515,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 372838330,
+    "osm_name": "Aston Quay",
+    "lat": 53.3467444,
+    "lon": -6.2599335,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 375758263,
+    "osm_name": "Pearse Street",
+    "lat": 53.343992,
+    "lon": -6.248641,
+    "reverse_geocoded_road": "Magennis Place",
+    "similarity": 0.15,
+    "match": false
+  },
+  {
+    "osm_id": 376394519,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3474379,
+    "lon": -6.257227,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 385558488,
+    "osm_name": "Leeson Street Lower",
+    "lat": 53.3360892,
+    "lon": -6.2571022,
+    "reverse_geocoded_road": "Leeson Street Lower",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 419502785,
+    "osm_name": "St. Stephen's Green",
+    "lat": 53.3364027,
+    "lon": -6.2570744,
+    "reverse_geocoded_road": "St. Stephen's Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 428814822,
+    "osm_name": "Eden Quay",
+    "lat": 53.3482014,
+    "lon": -6.2551376,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 435975069,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3438916,
+    "lon": -6.306066,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 441393227,
+    "osm_name": "Conyngham Road",
+    "lat": 53.3482636,
+    "lon": -6.3011746,
+    "reverse_geocoded_road": "Conyngham Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 506780986,
+    "osm_name": "Eden Quay",
+    "lat": 53.3482588,
+    "lon": -6.2552058,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 508536642,
+    "osm_name": "St. Stephen's Green",
+    "lat": 53.336283,
+    "lon": -6.2571666,
+    "reverse_geocoded_road": "St. Stephen's Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 514857022,
+    "osm_name": "Custom House Quay",
+    "lat": 53.3482457,
+    "lon": -6.2516423,
+    "reverse_geocoded_road": "Custom House Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 514857024,
+    "osm_name": "Eden Quay",
+    "lat": 53.3478523,
+    "lon": -6.2576627,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 514857030,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.347917,
+    "lon": -6.2573147,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 518591588,
+    "osm_name": "Tyrconnell Road",
+    "lat": 53.3349862,
+    "lon": -6.327588,
+    "reverse_geocoded_road": "Tyrconnell Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 518591591,
+    "osm_name": "Tyrconnell Road",
+    "lat": 53.3359873,
+    "lon": -6.3262241,
+    "reverse_geocoded_road": "Tyrconnell Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 521969635,
+    "osm_name": "Dawson Street",
+    "lat": 53.342765,
+    "lon": -6.2578111,
+    "reverse_geocoded_road": "Dawson Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 524737392,
+    "osm_name": "Kildare Street",
+    "lat": 53.3412308,
+    "lon": -6.2550783,
+    "reverse_geocoded_road": "Kildare Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 529171742,
+    "osm_name": "Pearse Street",
+    "lat": 53.3455816,
+    "lon": -6.2565095,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 537825027,
+    "osm_name": "Dawson Street",
+    "lat": 53.3428998,
+    "lon": -6.2578883,
+    "reverse_geocoded_road": "Dawson Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 553868718,
+    "osm_name": "Nassau Street",
+    "lat": 53.3432764,
+    "lon": -6.2592316,
+    "reverse_geocoded_road": "Nassau Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 553868720,
+    "osm_name": "Nassau Street",
+    "lat": 53.3429937,
+    "lon": -6.2580673,
+    "reverse_geocoded_road": "Nassau Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 556539569,
+    "osm_name": "Naas Road",
+    "lat": 53.3268776,
+    "lon": -6.3431107,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 558112093,
+    "osm_name": "Swords Road",
+    "lat": 53.3783176,
+    "lon": -6.247616,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 559473882,
+    "osm_name": "Swords Road",
+    "lat": 53.3852885,
+    "lon": -6.242939,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 575070043,
+    "osm_name": "College Street",
+    "lat": 53.3456143,
+    "lon": -6.2572556,
+    "reverse_geocoded_road": "College Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 578973717,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3478994,
+    "lon": -6.2573227,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 578973718,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.347872,
+    "lon": -6.2574498,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 585255071,
+    "osm_name": "O'Connell Bridge",
+    "lat": 53.347433,
+    "lon": -6.2592545,
+    "reverse_geocoded_road": "O'Connell Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 585508291,
+    "osm_name": "Bachelors Walk",
+    "lat": 53.3475215,
+    "lon": -6.2593629,
+    "reverse_geocoded_road": "Bachelors Walk",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 591837995,
+    "osm_name": "Rathfarnham Road",
+    "lat": 53.3054841,
+    "lon": -6.2833199,
+    "reverse_geocoded_road": "Rathfarnham Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 627577866,
+    "osm_name": "Amiens Street",
+    "lat": 53.3509867,
+    "lon": -6.2503562,
+    "reverse_geocoded_road": "Amiens Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 746105767,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3455951,
+    "lon": -6.2990095,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 750308790,
+    "osm_name": "Sarsfield Road",
+    "lat": 53.3418636,
+    "lon": -6.32501,
+    "reverse_geocoded_road": "Sarsfield Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 750308791,
+    "osm_name": "Sarsfield Road",
+    "lat": 53.3419895,
+    "lon": -6.3257366,
+    "reverse_geocoded_road": "Sarsfield Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 764347617,
+    "osm_name": "Tyrconnell Road",
+    "lat": 53.3364568,
+    "lon": -6.3255755,
+    "reverse_geocoded_road": "Tyrconnell Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 766029598,
+    "osm_name": "Sarsfield Road",
+    "lat": 53.341462,
+    "lon": -6.3230143,
+    "reverse_geocoded_road": "Sarsfield Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 769479899,
+    "osm_name": "Eden Quay",
+    "lat": 53.3479034,
+    "lon": -6.2573883,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 0.21,
+    "match": false
+  },
+  {
+    "osm_id": 769479900,
+    "osm_name": "Eden Quay",
+    "lat": 53.3479034,
+    "lon": -6.2573883,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 0.21,
+    "match": false
+  },
+  {
+    "osm_id": 769479903,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3478756,
+    "lon": -6.2574326,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 769479907,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3478823,
+    "lon": -6.2573055,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 781151845,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3514257,
+    "lon": -6.3573442,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 781151846,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3431426,
+    "lon": -6.3216201,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 781151850,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3440799,
+    "lon": -6.3055174,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 781151851,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3458407,
+    "lon": -6.2964723,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 781151852,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3454961,
+    "lon": -6.2997163,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 781151853,
+    "osm_name": "Saint John's Road West",
+    "lat": 53.3458664,
+    "lon": -6.2961803,
+    "reverse_geocoded_road": "Saint John's Road West",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 782528459,
+    "osm_name": "Naas Road",
+    "lat": 53.3262667,
+    "lon": -6.3452493,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 782528461,
+    "osm_name": "Naas Road",
+    "lat": 53.3283407,
+    "lon": -6.3371058,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 789325295,
+    "osm_name": "Naas Road",
+    "lat": 53.3287008,
+    "lon": -6.3350861,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 800772121,
+    "osm_name": "Aston Quay",
+    "lat": 53.3464615,
+    "lon": -6.2611437,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 874916508,
+    "osm_name": "Store Street",
+    "lat": 53.3495266,
+    "lon": -6.2526303,
+    "reverse_geocoded_road": "Store Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 874916509,
+    "osm_name": "Store Street",
+    "lat": 53.3498993,
+    "lon": -6.2511292,
+    "reverse_geocoded_road": "Store Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 879974596,
+    "osm_name": "Store Street",
+    "lat": 53.3496882,
+    "lon": -6.2525812,
+    "reverse_geocoded_road": "Store Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 909735843,
+    "osm_name": "George's Quay",
+    "lat": 53.3474108,
+    "lon": -6.2532094,
+    "reverse_geocoded_road": "George's Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 909735853,
+    "osm_name": "Custom House Quay",
+    "lat": 53.3482491,
+    "lon": -6.2517876,
+    "reverse_geocoded_road": "Custom House Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 909735854,
+    "osm_name": "Custom House Quay",
+    "lat": 53.3482418,
+    "lon": -6.2547685,
+    "reverse_geocoded_road": "Custom House Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 909735861,
+    "osm_name": "Memorial Road",
+    "lat": 53.3490019,
+    "lon": -6.2516365,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 909735864,
+    "osm_name": "Memorial Road",
+    "lat": 53.3496771,
+    "lon": -6.2510262,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 909777283,
+    "osm_name": "Memorial Road",
+    "lat": 53.3492922,
+    "lon": -6.2514629,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 914263378,
+    "osm_name": "Lincoln Place",
+    "lat": 53.3421638,
+    "lon": -6.2514149,
+    "reverse_geocoded_road": "Lincoln Place",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 927793496,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3700682,
+    "lon": -6.2541737,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 927793497,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3711231,
+    "lon": -6.2535422,
+    "reverse_geocoded_road": "Church Avenue",
+    "similarity": 0.18,
+    "match": false
+  },
+  {
+    "osm_id": 927793498,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.373039,
+    "lon": -6.252255,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 927793499,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3713749,
+    "lon": -6.2534019,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 927987712,
+    "osm_name": "O'Connell Bridge",
+    "lat": 53.3470102,
+    "lon": -6.2590866,
+    "reverse_geocoded_road": "O'Connell Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 927987713,
+    "osm_name": "O'Connell Bridge",
+    "lat": 53.347486,
+    "lon": -6.2592821,
+    "reverse_geocoded_road": "O'Connell Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 932628055,
+    "osm_name": "Bus\u00e1ras",
+    "lat": 53.3497345,
+    "lon": -6.2514,
+    "reverse_geocoded_road": "Bus\u00e1ras",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 932628056,
+    "osm_name": "Bus\u00e1ras",
+    "lat": 53.3495349,
+    "lon": -6.2520183,
+    "reverse_geocoded_road": "Bus\u00e1ras",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 935184669,
+    "osm_name": "Conyngham Road",
+    "lat": 53.3483418,
+    "lon": -6.3064206,
+    "reverse_geocoded_road": "Conyngham Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 935184670,
+    "osm_name": "Conyngham Road",
+    "lat": 53.3483494,
+    "lon": -6.3060854,
+    "reverse_geocoded_road": "Conyngham Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1006011538,
+    "osm_name": "Pearse Street",
+    "lat": 53.3448604,
+    "lon": -6.2531235,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1008996128,
+    "osm_name": "Swords Road",
+    "lat": 53.3815544,
+    "lon": -6.2450075,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1013323965,
+    "osm_name": "Custom House Quay",
+    "lat": 53.3481597,
+    "lon": -6.250019,
+    "reverse_geocoded_road": "Custom House Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1014460767,
+    "osm_name": "Naas Road",
+    "lat": 53.3266782,
+    "lon": -6.3429553,
+    "reverse_geocoded_road": "Naas Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1014491055,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3466906,
+    "lon": -6.3361418,
+    "reverse_geocoded_road": "Chapelizod Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1061460109,
+    "osm_name": "Wolfe Tone Quay",
+    "lat": 53.3475863,
+    "lon": -6.2910682,
+    "reverse_geocoded_road": "Wolfe Tone Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1062983947,
+    "osm_name": "Swords Road",
+    "lat": 53.3822797,
+    "lon": -6.2445664,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1062983948,
+    "osm_name": "Swords Road",
+    "lat": 53.3829957,
+    "lon": -6.2441283,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1062983949,
+    "osm_name": "Swords Road",
+    "lat": 53.3836113,
+    "lon": -6.2437843,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1064203137,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3480282,
+    "lon": -6.2931213,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1064203138,
+    "osm_name": "Parkgate Street",
+    "lat": 53.347781,
+    "lon": -6.2918851,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1064203155,
+    "osm_name": "Arran Quay",
+    "lat": 53.3462683,
+    "lon": -6.2784265,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1064203156,
+    "osm_name": "Arran Quay",
+    "lat": 53.3463999,
+    "lon": -6.2790962,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1067431414,
+    "osm_name": "Con Colbert Road",
+    "lat": 53.3428772,
+    "lon": -6.3170834,
+    "reverse_geocoded_road": "Con Colbert Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1067431416,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3501947,
+    "lon": -6.3549324,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1067431418,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.350423,
+    "lon": -6.3558502,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1067726073,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3431777,
+    "lon": -6.3223889,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1071076713,
+    "osm_name": "George's Quay",
+    "lat": 53.3474272,
+    "lon": -6.2539014,
+    "reverse_geocoded_road": "Luke Street",
+    "similarity": 0.25,
+    "match": false
+  },
+  {
+    "osm_id": 1080971893,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3466408,
+    "lon": -6.3354445,
+    "reverse_geocoded_road": "Chapelizod Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1080987233,
+    "osm_name": "Chapelizod Bypass",
+    "lat": 53.3507531,
+    "lon": -6.356602,
+    "reverse_geocoded_road": "Chapelizod Bypass",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1080987234,
+    "osm_name": "Lucan Road",
+    "lat": 53.3511073,
+    "lon": -6.352978,
+    "reverse_geocoded_road": "Lucan Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1092481916,
+    "osm_name": "Custom House Quay",
+    "lat": 53.3482229,
+    "lon": -6.2511496,
+    "reverse_geocoded_road": "Custom House Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1097683892,
+    "osm_name": "Winetavern Street",
+    "lat": 53.3443729,
+    "lon": -6.2718685,
+    "reverse_geocoded_road": "Winetavern Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1097683893,
+    "osm_name": "Saint Michael's Hill",
+    "lat": 53.3430638,
+    "lon": -6.2717522,
+    "reverse_geocoded_road": "Saint Michael's Hill",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1097683894,
+    "osm_name": "Saint Michael's Hill",
+    "lat": 53.3432353,
+    "lon": -6.2717344,
+    "reverse_geocoded_road": "Saint Michael's Hill",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1097683895,
+    "osm_name": "Saint Michael's Hill",
+    "lat": 53.3432793,
+    "lon": -6.2717435,
+    "reverse_geocoded_road": "Saint Michael's Hill",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1104607990,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3742495,
+    "lon": -6.2515787,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1155449046,
+    "osm_name": "Winetavern Street",
+    "lat": 53.3440768,
+    "lon": -6.2717683,
+    "reverse_geocoded_road": "Winetavern Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1155449050,
+    "osm_name": "Winetavern Street",
+    "lat": 53.3441721,
+    "lon": -6.2717885,
+    "reverse_geocoded_road": "Winetavern Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1177263836,
+    "osm_name": "Arran Quay",
+    "lat": 53.3463833,
+    "lon": -6.2790093,
+    "reverse_geocoded_road": "Arran Street West",
+    "similarity": 0.44,
+    "match": false
+  },
+  {
+    "osm_id": 1177263837,
+    "osm_name": "Arran Quay",
+    "lat": 53.3463435,
+    "lon": -6.2788077,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1177263838,
+    "osm_name": "Arran Quay",
+    "lat": 53.3462157,
+    "lon": -6.2781593,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1177263840,
+    "osm_name": "Arran Quay",
+    "lat": 53.346085,
+    "lon": -6.2775004,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1177263841,
+    "osm_name": "Arran Quay",
+    "lat": 53.3460737,
+    "lon": -6.2774435,
+    "reverse_geocoded_road": "Lincoln Lane",
+    "similarity": 0.18,
+    "match": false
+  },
+  {
+    "osm_id": 1177263842,
+    "osm_name": "Arran Quay",
+    "lat": 53.3459106,
+    "lon": -6.2765851,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1177263843,
+    "osm_name": "Arran Quay",
+    "lat": 53.3458877,
+    "lon": -6.2764156,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1177263844,
+    "osm_name": "Arran Quay",
+    "lat": 53.3458309,
+    "lon": -6.2759037,
+    "reverse_geocoded_road": "Arran Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178123804,
+    "osm_name": "Wolfe Tone Quay",
+    "lat": 53.3477366,
+    "lon": -6.2917066,
+    "reverse_geocoded_road": "Wolfe Tone Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178123805,
+    "osm_name": "Wolfe Tone Quay",
+    "lat": 53.3477299,
+    "lon": -6.2916782,
+    "reverse_geocoded_road": "Wolfe Tone Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178123806,
+    "osm_name": "Wolfe Tone Quay",
+    "lat": 53.347705,
+    "lon": -6.2915725,
+    "reverse_geocoded_road": "Wolfe Tone Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178123807,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3478019,
+    "lon": -6.2919731,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178123808,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3478618,
+    "lon": -6.2922342,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178123809,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3478951,
+    "lon": -6.2923827,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178123810,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3477968,
+    "lon": -6.291951,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178129399,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3480247,
+    "lon": -6.2920088,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1178129400,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3478334,
+    "lon": -6.2921079,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212639866,
+    "osm_name": "Leinster Street South",
+    "lat": 53.3418639,
+    "lon": -6.2526229,
+    "reverse_geocoded_road": "Leinster Street South",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212639868,
+    "osm_name": "Leinster Street South",
+    "lat": 53.3418642,
+    "lon": -6.2525396,
+    "reverse_geocoded_road": "Clare Street",
+    "similarity": 0.55,
+    "match": true
+  },
+  {
+    "osm_id": 1212639870,
+    "osm_name": "Clare Street",
+    "lat": 53.3417095,
+    "lon": -6.2523678,
+    "reverse_geocoded_road": "Clare Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212643142,
+    "osm_name": "Westland Row",
+    "lat": 53.342169,
+    "lon": -6.2504881,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212643143,
+    "osm_name": "Westland Row",
+    "lat": 53.3433097,
+    "lon": -6.2497922,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212643144,
+    "osm_name": "Westland Row",
+    "lat": 53.3431508,
+    "lon": -6.2498893,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212643145,
+    "osm_name": "Westland Row",
+    "lat": 53.3434274,
+    "lon": -6.2497199,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212643147,
+    "osm_name": "Westland Row",
+    "lat": 53.3432618,
+    "lon": -6.2498215,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1212643148,
+    "osm_name": "Westland Row",
+    "lat": 53.3433964,
+    "lon": -6.2497392,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1214618265,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3479815,
+    "lon": -6.2927805,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1222852096,
+    "osm_name": "Westland Row",
+    "lat": 53.3430642,
+    "lon": -6.2499422,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1226956370,
+    "osm_name": "Lucan Road",
+    "lat": 53.3519273,
+    "lon": -6.3557324,
+    "reverse_geocoded_road": "Lucan Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1226956371,
+    "osm_name": "Lucan Road",
+    "lat": 53.3520476,
+    "lon": -6.3561011,
+    "reverse_geocoded_road": "Lucan Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1228746297,
+    "osm_name": "Eden Quay",
+    "lat": 53.3479632,
+    "lon": -6.257064,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1249270399,
+    "osm_name": "Aston Quay",
+    "lat": 53.3468791,
+    "lon": -6.2593433,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1249270402,
+    "osm_name": "Aston Quay",
+    "lat": 53.3468583,
+    "lon": -6.259442,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1249270403,
+    "osm_name": "Aston Quay",
+    "lat": 53.3469115,
+    "lon": -6.2591859,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1249270404,
+    "osm_name": "Aston Quay",
+    "lat": 53.3465574,
+    "lon": -6.2607335,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1250967135,
+    "osm_name": "Wolfe Tone Quay",
+    "lat": 53.3474581,
+    "lon": -6.2904809,
+    "reverse_geocoded_road": "Wolfe Tone Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1252590397,
+    "osm_name": "Frederick Street North",
+    "lat": 53.3559133,
+    "lon": -6.2650624,
+    "reverse_geocoded_road": "Frederick Street North",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1252590399,
+    "osm_name": "Frederick Street North",
+    "lat": 53.3559978,
+    "lon": -6.2651927,
+    "reverse_geocoded_road": "Frederick Street North",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1253784192,
+    "osm_name": "Parnell Square East",
+    "lat": 53.3533729,
+    "lon": -6.2621558,
+    "reverse_geocoded_road": "Parnell Square East",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1253784193,
+    "osm_name": "Parnell Square East",
+    "lat": 53.353385,
+    "lon": -6.26217,
+    "reverse_geocoded_road": "Parnell Square East",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1253784194,
+    "osm_name": "Parnell Square East",
+    "lat": 53.3540767,
+    "lon": -6.2629794,
+    "reverse_geocoded_road": "Parnell Square East",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1254872901,
+    "osm_name": "Pearse Street",
+    "lat": 53.3440826,
+    "lon": -6.2491273,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1263856215,
+    "osm_name": "St. Stephen's Green",
+    "lat": 53.3363512,
+    "lon": -6.2571141,
+    "reverse_geocoded_road": "St. Stephen's Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1263856218,
+    "osm_name": "Ely Place",
+    "lat": 53.3381471,
+    "lon": -6.2536281,
+    "reverse_geocoded_road": "Baggot Street Lower",
+    "similarity": 0.21,
+    "match": false
+  },
+  {
+    "osm_id": 1263856219,
+    "osm_name": "Hume Street",
+    "lat": 53.337582,
+    "lon": -6.2541327,
+    "reverse_geocoded_road": "Ely Place",
+    "similarity": 0.3,
+    "match": false
+  },
+  {
+    "osm_id": 1263856220,
+    "osm_name": "Ely Place",
+    "lat": 53.3375849,
+    "lon": -6.2541115,
+    "reverse_geocoded_road": "Ely Place",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1263856221,
+    "osm_name": "Hume Street",
+    "lat": 53.3379141,
+    "lon": -6.255492,
+    "reverse_geocoded_road": "Hume Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1263856225,
+    "osm_name": "St. Stephen's Green",
+    "lat": 53.3379261,
+    "lon": -6.2558098,
+    "reverse_geocoded_road": "St. Stephen's Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1263856226,
+    "osm_name": "St. Stephen's Green",
+    "lat": 53.3379056,
+    "lon": -6.2558259,
+    "reverse_geocoded_road": "St. Stephen's Green",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1267812614,
+    "osm_name": "Swords Road",
+    "lat": 53.3835043,
+    "lon": -6.2436929,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1267812616,
+    "osm_name": "Swords Road",
+    "lat": 53.3843236,
+    "lon": -6.2434607,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1267812617,
+    "osm_name": "Swords Road",
+    "lat": 53.3843035,
+    "lon": -6.2433227,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1267812619,
+    "osm_name": "Swords Road",
+    "lat": 53.3847535,
+    "lon": -6.2433033,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1283027869,
+    "osm_name": "Memorial Road",
+    "lat": 53.3498819,
+    "lon": -6.2510609,
+    "reverse_geocoded_road": "Amiens Street",
+    "similarity": 0.23,
+    "match": false
+  },
+  {
+    "osm_id": 1283042283,
+    "osm_name": "Memorial Road",
+    "lat": 53.3491585,
+    "lon": -6.2518306,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1283042284,
+    "osm_name": "Memorial Road",
+    "lat": 53.3491307,
+    "lon": -6.2517917,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1310967491,
+    "osm_name": "Aston Quay",
+    "lat": 53.3468944,
+    "lon": -6.2592679,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1313723589,
+    "osm_name": "Aston Quay",
+    "lat": 53.3465944,
+    "lon": -6.2605749,
+    "reverse_geocoded_road": "Aston Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1315366147,
+    "osm_name": "Store Street",
+    "lat": 53.3500654,
+    "lon": -6.2523536,
+    "reverse_geocoded_road": "Store Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1315366150,
+    "osm_name": "Store Street",
+    "lat": 53.3501326,
+    "lon": -6.25227,
+    "reverse_geocoded_road": "Store Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1315406016,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.37593,
+    "lon": -6.2502485,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1315406017,
+    "osm_name": "Drumcondra Road Upper",
+    "lat": 53.3763002,
+    "lon": -6.2498448,
+    "reverse_geocoded_road": "Drumcondra Road Upper",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1316358643,
+    "osm_name": "Parkgate Street",
+    "lat": 53.3480298,
+    "lon": -6.2921016,
+    "reverse_geocoded_road": "Parkgate Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1321392097,
+    "osm_name": "Eden Quay",
+    "lat": 53.3476884,
+    "lon": -6.2586142,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1321392098,
+    "osm_name": "Eden Quay",
+    "lat": 53.3477448,
+    "lon": -6.2583796,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1322287222,
+    "osm_name": "Swords Road",
+    "lat": 53.3809718,
+    "lon": -6.2454038,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1322287223,
+    "osm_name": "Swords Road",
+    "lat": 53.3812089,
+    "lon": -6.2452437,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1322287228,
+    "osm_name": "Swords Road",
+    "lat": 53.3823368,
+    "lon": -6.2445316,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1322636039,
+    "osm_name": "O'Connell Street Lower",
+    "lat": 53.3488709,
+    "lon": -6.2597226,
+    "reverse_geocoded_road": "O'Connell Street Lower",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1323440321,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3467477,
+    "lon": -6.3369407,
+    "reverse_geocoded_road": "Chapelizod Gate",
+    "similarity": 0.8,
+    "match": true
+  },
+  {
+    "osm_id": 1323440323,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3467688,
+    "lon": -6.3371767,
+    "reverse_geocoded_road": "Chapelizod Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1325263202,
+    "osm_name": "Kildare Street",
+    "lat": 53.3409334,
+    "lon": -6.2552457,
+    "reverse_geocoded_road": "Kildare Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1325263203,
+    "osm_name": "Kildare Street",
+    "lat": 53.340836,
+    "lon": -6.2553019,
+    "reverse_geocoded_road": "Kildare Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1370398464,
+    "osm_name": "Swords Road",
+    "lat": 53.3842442,
+    "lon": -6.2434919,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1370399975,
+    "osm_name": "Swords Road",
+    "lat": 53.3826298,
+    "lon": -6.2443394,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1384157505,
+    "osm_name": "Pearse Street",
+    "lat": 53.3438921,
+    "lon": -6.2481528,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1384157506,
+    "osm_name": "Pearse Street",
+    "lat": 53.3439231,
+    "lon": -6.2483043,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1389431927,
+    "osm_name": "Pearse Street",
+    "lat": 53.3436059,
+    "lon": -6.2466964,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1389533986,
+    "osm_name": "Tara Street",
+    "lat": 53.3459077,
+    "lon": -6.2551452,
+    "reverse_geocoded_road": "Townsend Street",
+    "similarity": 0.62,
+    "match": true
+  },
+  {
+    "osm_id": 1389685856,
+    "osm_name": "Westland Row",
+    "lat": 53.3439512,
+    "lon": -6.2495079,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1389689937,
+    "osm_name": "Westland Row",
+    "lat": 53.3436638,
+    "lon": -6.2496398,
+    "reverse_geocoded_road": "Westland Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1389890471,
+    "osm_name": "Broombridge Road",
+    "lat": 53.3734828,
+    "lon": -6.2998892,
+    "reverse_geocoded_road": "Broombridge Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1418030829,
+    "osm_name": "Leeson Street Lower",
+    "lat": 53.3347548,
+    "lon": -6.2556282,
+    "reverse_geocoded_road": "Leeson Street Lower",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1418030830,
+    "osm_name": "Leeson Street Lower",
+    "lat": 53.3349705,
+    "lon": -6.2558481,
+    "reverse_geocoded_road": "Leeson Street Lower",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1418030831,
+    "osm_name": "Leeson Street Lower",
+    "lat": 53.3349549,
+    "lon": -6.2558322,
+    "reverse_geocoded_road": "Leeson Street Lower",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1418030832,
+    "osm_name": "Leeson Street Lower",
+    "lat": 53.3349942,
+    "lon": -6.2558723,
+    "reverse_geocoded_road": "Leeson Street Lower",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1472013903,
+    "osm_name": "Pearse Street",
+    "lat": 53.3453664,
+    "lon": -6.2556647,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1472013904,
+    "osm_name": "Pearse Street",
+    "lat": 53.3455577,
+    "lon": -6.2563996,
+    "reverse_geocoded_road": "Pearse Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1472013905,
+    "osm_name": "Tara Street",
+    "lat": 53.3458217,
+    "lon": -6.2551462,
+    "reverse_geocoded_road": "Tara Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1481154430,
+    "osm_name": "Chapelizod Road",
+    "lat": 53.3477383,
+    "lon": -6.3413291,
+    "reverse_geocoded_road": "Chapelizod Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1526508200,
+    "osm_name": "Swords Road",
+    "lat": 53.3853338,
+    "lon": -6.2431225,
+    "reverse_geocoded_road": "Swords Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1545754303,
+    "osm_name": "Granby Row",
+    "lat": 53.3541714,
+    "lon": -6.2667982,
+    "reverse_geocoded_road": "Granby Row",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1552429854,
+    "osm_name": "Memorial Road",
+    "lat": 53.3490793,
+    "lon": -6.2515211,
+    "reverse_geocoded_road": "Memorial Road",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1552721090,
+    "osm_name": "Amiens Street",
+    "lat": 53.3499448,
+    "lon": -6.2508143,
+    "reverse_geocoded_road": "Amiens Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1552721093,
+    "osm_name": "Amiens Street",
+    "lat": 53.3505646,
+    "lon": -6.2504378,
+    "reverse_geocoded_road": "Amiens Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1552728191,
+    "osm_name": "Amiens Street",
+    "lat": 53.350484,
+    "lon": -6.2506559,
+    "reverse_geocoded_road": "Amiens Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1552728192,
+    "osm_name": "Amiens Street",
+    "lat": 53.3501255,
+    "lon": -6.250697,
+    "reverse_geocoded_road": "Amiens Street",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1554893787,
+    "osm_name": "Eden Quay",
+    "lat": 53.3478324,
+    "lon": -6.2579926,
+    "reverse_geocoded_road": "Eden Quay",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1555330166,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3472959,
+    "lon": -6.257347,
+    "reverse_geocoded_road": "Burgh Quay",
+    "similarity": 0.2,
+    "match": false
+  },
+  {
+    "osm_id": 1555330167,
+    "osm_name": "Rosie Hackett Bridge",
+    "lat": 53.3474076,
+    "lon": -6.2572214,
+    "reverse_geocoded_road": "Rosie Hackett Bridge",
+    "similarity": 1.0,
+    "match": true
+  },
+  {
+    "osm_id": 1555337753,
+    "osm_name": "Bachelors Walk",
+    "lat": 53.3473568,
+    "lon": -6.2600539,
+    "reverse_geocoded_road": "Bachelor's Way",
+    "similarity": 0.86,
+    "match": true
+  }
+]

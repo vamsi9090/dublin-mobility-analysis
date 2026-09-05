@@ -1,0 +1,20 @@
+{
+  "threshold_m": 30.0,
+  "osm_stops_in_boundary": 2098,
+  "gov_stops_in_boundary": 1879,
+  "osm_stops_with_gtfs_match_within_threshold": 1929,
+  "osm_stops_with_no_gtfs_match": 169,
+  "gov_stops_with_osm_match_within_threshold": 1786,
+  "gov_stops_with_no_osm_match": 93,
+  "pct_osm_stops_matched": 91.9,
+  "pct_gov_stops_matched": 95.1,
+  "distance_percentiles_m": {
+    "p10": 1.5,
+    "p25": 2.7,
+    "p50": 4.8,
+    "p75": 9.1,
+    "p90": 23.2,
+    "p95": 54.0,
+    "p99": 192.0
+  }
+}

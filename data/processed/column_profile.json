@@ -1,0 +1,5862 @@
+{
+  "osm_bus_stops": {
+    "dataset": "OSM bus stops",
+    "n_features": 2098,
+    "fields": {
+      "bus": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2098,
+        "distinct_values": {
+          "yes": 2098
+        },
+        "cardinality": "low"
+      },
+      "highway": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2098,
+        "distinct_values": {
+          "bus_stop": 2098
+        },
+        "cardinality": "low"
+      },
+      "public_transport": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2098,
+        "distinct_values": {
+          "platform": 2095,
+          "stop_position": 3
+        },
+        "cardinality": "low"
+      },
+      "osm_type": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2098,
+        "distinct_values": {
+          "node": 2098
+        },
+        "cardinality": "low"
+      },
+      "osm_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2098,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "249421153",
+          "249423023",
+          "249423028",
+          "249426203",
+          "249426548"
+        ]
+      },
+      "network": {
+        "fill_rate_pct": 98.7,
+        "non_null_count": 2071,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Transport for Ireland",
+          "Dublin Bus",
+          "Aircoach",
+          "City Sightseeing",
+          "Expressway"
+        ]
+      },
+      "operator": {
+        "fill_rate_pct": 97.1,
+        "non_null_count": 2038,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Dublin Bus",
+          "Dublin Bus;Go-Ahead Ireland",
+          "Go-Ahead Ireland",
+          "Bus \u00c9ireann",
+          "Aircoach"
+        ]
+      },
+      "name": {
+        "fill_rate_pct": 96.9,
+        "non_null_count": 2032,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Amiens Street, Connolly Station",
+          "Westmoreland Street",
+          "Celtic Park Road",
+          "Belton Park Road",
+          "Oak Road"
+        ]
+      },
+      "network:wikidata": {
+        "fill_rate_pct": 95.9,
+        "non_null_count": 2012,
+        "distinct_values": {
+          "Q17100681": 1099,
+          "Q1263090": 855,
+          "Q4698488": 30,
+          "Q111326049": 14,
+          "Q117196712": 11,
+          "Q15712847": 3
+        },
+        "cardinality": "low"
+      },
+      "shelter": {
+        "fill_rate_pct": 95.6,
+        "non_null_count": 2006,
+        "distinct_values": {
+          "no": 1397,
+          "yes": 609
+        },
+        "cardinality": "low"
+      },
+      "bench": {
+        "fill_rate_pct": 92.3,
+        "non_null_count": 1937,
+        "distinct_values": {
+          "no": 1468,
+          "yes": 469
+        },
+        "cardinality": "low"
+      },
+      "lit": {
+        "fill_rate_pct": 90.7,
+        "non_null_count": 1903,
+        "distinct_values": {
+          "yes": 1878,
+          "no": 25
+        },
+        "cardinality": "low"
+      },
+      "network:wikipedia": {
+        "fill_rate_pct": 83.7,
+        "non_null_count": 1757,
+        "distinct_values": {
+          "en:National Transport Authority (Ireland)": 902,
+          "en:Dublin Bus": 845,
+          "en:Aircoach": 7,
+          "en:Irish Citylink": 3
+        },
+        "cardinality": "low"
+      },
+      "ref": {
+        "fill_rate_pct": 83.0,
+        "non_null_count": 1742,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "1192",
+          "1186",
+          "1185",
+          "669",
+          "523"
+        ]
+      },
+      "tactile_paving": {
+        "fill_rate_pct": 80.9,
+        "non_null_count": 1697,
+        "distinct_values": {
+          "yes": 932,
+          "no": 765
+        },
+        "cardinality": "low"
+      },
+      "website": {
+        "fill_rate_pct": 80.4,
+        "non_null_count": 1686,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB001192",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB001186",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB001185",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB000669",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8250DB000523"
+        ]
+      },
+      "bin": {
+        "fill_rate_pct": 65.3,
+        "non_null_count": 1370,
+        "distinct_values": {
+          "no": 730,
+          "yes": 638,
+          "separate": 2
+        },
+        "cardinality": "low"
+      },
+      "wheelchair": {
+        "fill_rate_pct": 61.2,
+        "non_null_count": 1283,
+        "distinct_values": {
+          "yes": 796,
+          "limited": 460,
+          "no": 27
+        },
+        "cardinality": "low"
+      },
+      "route_ref": {
+        "fill_rate_pct": 57.7,
+        "non_null_count": 1211,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "40e;120",
+          "15;49;65;65b",
+          "14;31d;N4",
+          "90",
+          "29a;31;31a;31b;31d;32;104"
+        ]
+      },
+      "passenger_information_display": {
+        "fill_rate_pct": 40.3,
+        "non_null_count": 845,
+        "distinct_values": {
+          "no": 520,
+          "yes": 324,
+          "timetable": 1
+        },
+        "cardinality": "low"
+      },
+      "surface": {
+        "fill_rate_pct": 27.8,
+        "non_null_count": 583,
+        "distinct_values": {
+          "concrete": 552,
+          "asphalt": 18,
+          "paving_stones": 7,
+          "paved": 4,
+          "brick": 2
+        },
+        "cardinality": "low"
+      },
+      "covered": {
+        "fill_rate_pct": 24.9,
+        "non_null_count": 523,
+        "distinct_values": {
+          "no": 507,
+          "yes": 16
+        },
+        "cardinality": "low"
+      },
+      "network:website": {
+        "fill_rate_pct": 17.6,
+        "non_null_count": 369,
+        "distinct_values": {
+          "https://www.transportforireland.ie/": 369
+        },
+        "cardinality": "low"
+      },
+      "name:ga": {
+        "fill_rate_pct": 15.3,
+        "non_null_count": 320,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "P\u00e1irc Belgrove",
+          "Marglann Marino, Col\u00e1iste Marino",
+          "Droichead Coise Fhionnradhairc",
+          "B\u00f3thar na Tr\u00e1 Thuaidh, Ascaill Radharc an Chuain",
+          "Sr\u00e1id Amiens, Rae Portland"
+        ]
+      },
+      "departures_board": {
+        "fill_rate_pct": 14.5,
+        "non_null_count": 304,
+        "distinct_values": {
+          "timetable": 144,
+          "no": 99,
+          "realtime": 50,
+          "yes": 7,
+          "realtime;timetable": 4
+        },
+        "cardinality": "low"
+      },
+      "tactile_writing:braille:en": {
+        "fill_rate_pct": 12.7,
+        "non_null_count": 266,
+        "distinct_values": {
+          "no": 164,
+          "yes": 102
+        },
+        "cardinality": "low"
+      },
+      "name:en": {
+        "fill_rate_pct": 11.6,
+        "non_null_count": 244,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Celtic Park Road",
+          "Belton Park Road",
+          "Oak Road",
+          "Marino Mart, Marino College",
+          "Marino Mart, Fairview Footbridge"
+        ]
+      },
+      "pole": {
+        "fill_rate_pct": 11.1,
+        "non_null_count": 232,
+        "distinct_values": {
+          "yes": 179,
+          "no": 52,
+          "pole": 1
+        },
+        "cardinality": "low"
+      },
+      "shelter_ref": {
+        "fill_rate_pct": 7.5,
+        "non_null_count": 158,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "03-500",
+          "03-532",
+          "09-562",
+          "06-544",
+          "06-510"
+        ]
+      },
+      "local_ref": {
+        "fill_rate_pct": 4.1,
+        "non_null_count": 85,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "CF",
+          "OS",
+          "CK",
+          "CD",
+          "EM"
+        ]
+      },
+      "check_date:shelter": {
+        "fill_rate_pct": 3.2,
+        "non_null_count": 68,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2025-10-18",
+          "2025-10-19",
+          "2025-10-20",
+          "2026-01-23",
+          "2026-05-08"
+        ]
+      },
+      "source": {
+        "fill_rate_pct": 3.0,
+        "non_null_count": 63,
+        "distinct_values": {
+          "bing": 28,
+          "survey": 24,
+          "Bing": 8,
+          "local knowledge": 2,
+          "website": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_name": {
+        "fill_rate_pct": 3.0,
+        "non_null_count": 62,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "South Frederick Street",
+          "Fleet Street",
+          "Barrow Street",
+          "Custom House Quay",
+          "Westmoreland Street"
+        ]
+      },
+      "operator:wikidata": {
+        "fill_rate_pct": 3.0,
+        "non_null_count": 62,
+        "distinct_values": {
+          "Q1263090": 35,
+          "Q1017233": 19,
+          "Q117196712": 8
+        },
+        "cardinality": "low"
+      },
+      "note": {
+        "fill_rate_pct": 2.9,
+        "non_null_count": 61,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Set down only",
+          "Name does not match street - sign on site incorrect.",
+          "Set-down stop only for buses that terminate on UCD campus.",
+          "Under bridge.",
+          "Dublin Bus route 1 terminus."
+        ]
+      },
+      "fixme": {
+        "fill_rate_pct": 2.9,
+        "non_null_count": 61,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Check ref.",
+          "Check details",
+          "Location. Details.",
+          "No ref on site",
+          "Check tactile_writing:braille:en=yes and departures_board=timetable"
+        ]
+      },
+      "operator:website": {
+        "fill_rate_pct": 2.7,
+        "non_null_count": 56,
+        "distinct_values": {
+          "https://www.goaheadireland.ie/": 40,
+          "https://www.wexfordbus.com/": 8,
+          "https://www.buseireann.ie/": 5,
+          "https://jjkavanagh.ie/": 1,
+          "http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=view&searchquery=7601": 1,
+          "https://city-sightseeing.com/en/50/dublin": 1
+        },
+        "cardinality": "low"
+      },
+      "operator:wikipedia": {
+        "fill_rate_pct": 2.0,
+        "non_null_count": 43,
+        "distinct_values": {
+          "en:Dublin Bus": 30,
+          "en:Bus \u00c9ireann": 13
+        },
+        "cardinality": "low"
+      },
+      "mapillary": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 33,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "CEppLOiTYnHFYhDRY0a_2w",
+          "DEhE2WorVBQ6ulbEolPp7A",
+          "1103652943465977",
+          "uz6Z6blgt3X_3SiQKFmCWw",
+          "tA1N4oF6SMtArzfM3yrmTg"
+        ]
+      },
+      "check_date:bench": {
+        "fill_rate_pct": 1.5,
+        "non_null_count": 32,
+        "distinct_values": {
+          "2025-10-19": 9,
+          "2025-10-18": 4,
+          "2026-05-08": 3,
+          "2024-09-28": 3,
+          "2022-06-16": 2,
+          "2025-10-20": 2,
+          "2026-08-03": 2,
+          "2026-01-23": 1,
+          "2026-05-07": 1,
+          "2024-08-26": 1,
+          "2026-05-05": 1,
+          "2026-04-10": 1,
+          "2025-08-15": 1,
+          "2025-07-06": 1
+        },
+        "cardinality": "low"
+      },
+      "survey:date": {
+        "fill_rate_pct": 1.0,
+        "non_null_count": 20,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2018-04-22",
+          "2017-12-09",
+          "2018-10-16",
+          "2017-04-02",
+          "2016-11-12"
+        ]
+      },
+      "kerb": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 18,
+        "distinct_values": {
+          "raised": 17,
+          "lowered": 1
+        },
+        "cardinality": "low"
+      },
+      "kerb:approach_aid": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 18,
+        "distinct_values": {
+          "no": 10,
+          "yes": 8
+        },
+        "cardinality": "low"
+      },
+      "disused": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 18,
+        "distinct_values": {
+          "yes": 18
+        },
+        "cardinality": "low"
+      },
+      "object:street": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 18,
+        "distinct_values": {
+          "O'Connell Street Upper": 14,
+          "Talbot Street": 2,
+          "O'Connell Street Lower": 2
+        },
+        "cardinality": "low"
+      },
+      "flag": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 12,
+        "distinct_values": {
+          "yes": 8,
+          "no": 4
+        },
+        "cardinality": "low"
+      },
+      "shelter_ref:old": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 8,
+        "distinct_values": {
+          "2932": 1,
+          "4680": 1,
+          "1248": 1,
+          "1127": 1,
+          "2581": 1,
+          "5912": 1,
+          "8181": 1,
+          "4610": 1
+        },
+        "cardinality": "low"
+      },
+      "set_down": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 7,
+        "distinct_values": {
+          "yes": 5,
+          "only": 2
+        },
+        "cardinality": "low"
+      },
+      "wheelchair:description": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 7,
+        "distinct_values": {
+          "Access is via short, slightly steep ramp.": 1,
+          "Low kerb.": 1,
+          "Wheelchair access limited as bus stop in parking bay at speed hump": 1,
+          "No dished kerb.": 1,
+          "No sidewalk ont his side of road, hardstand only. Dished kerb to cross road.": 1,
+          "Kassel kerb, but access to footpath is across 5 metres of grass.": 1,
+          "Kerb, but no Kassel kerb.": 1
+        },
+        "cardinality": "low"
+      },
+      "description": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 6,
+        "distinct_values": {
+          "Set Down Only": 4,
+          "Modern bus stop with adjacent traditional former tram shelter.": 1,
+          "Under renovation; shelter, bench, and timetable are temporarily removed as of December 2024.": 1
+        },
+        "cardinality": "low"
+      },
+      "not:network:wikidata": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 5,
+        "distinct_values": {
+          "Q1263090": 5
+        },
+        "cardinality": "low"
+      },
+      "check_date:tactile_paving": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 5,
+        "distinct_values": {
+          "2026-02-22": 1,
+          "2025-09-29": 1,
+          "2022-10-30": 1,
+          "2021-06-27": 1,
+          "2021-04-26": 1
+        },
+        "cardinality": "low"
+      },
+      "platforms": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 5,
+        "distinct_values": {
+          "1": 5
+        },
+        "cardinality": "low"
+      },
+      "passenger_information_display:speech_output": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "no": 4
+        },
+        "cardinality": "low"
+      },
+      "alt_name:en": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Westland Row": 1,
+          "Sandwith Street;Lombard Street East": 1,
+          "Wellington Quay": 1,
+          "Sandwith Street": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_name:ga": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Rae an Iarthair": 1,
+          "Sr\u00e1id Sandwith;Sr\u00e1id Lombard Thoir": 1,
+          "C\u00e9 Wellington": 1,
+          "Sr\u00e1id Sandwith": 1
+        },
+        "cardinality": "low"
+      },
+      "stop": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "stop_exit_only": 4
+        },
+        "cardinality": "low"
+      },
+      "check_date": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 3,
+        "distinct_values": {
+          "2026-02-22": 1,
+          "2025-09-29": 1,
+          "2026-05-07": 1
+        },
+        "cardinality": "low"
+      },
+      "source:ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 3,
+        "distinct_values": {
+          "survey": 1,
+          "https://www.dublinbus.ie/RTPI/Sources-of-Real-Time-Information/?searchtype=view&searchquery=7706": 1,
+          "email": 1
+        },
+        "cardinality": "low"
+      },
+      "ref:signed": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "layer": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 3,
+        "distinct_values": {
+          "-1": 3
+        },
+        "cardinality": "low"
+      },
+      "timetable": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "real_time": 2
+        },
+        "cardinality": "low"
+      },
+      "contrast_strip": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "name:ru": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "\u043f\u0440\u0438\u0435\u0445\u0430\u043b\u0438 \u0438\u0437 \u0411\u0435\u043b\u0444\u0430\u0441\u0442\u0430": 1,
+          "\u0410\u0432\u0442\u043e\u0431\u0443\u0441 \u0434\u043e \u041a\u0430\u0441\u043b\u0431\u0430\u0440\u0430": 1
+        },
+        "cardinality": "low"
+      },
+      "panoramax": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "7fe68b4c-029f-4a98-9f41-3003a4a90253": 1,
+          "3b2961cd-9f2e-436e-ba2b-6e65f8a7390e": 1
+        },
+        "cardinality": "low"
+      },
+      "old_name": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "South Circular Road, Clogher Road;South Circular Road, Donore Avenue": 1,
+          "Silvercrest Foods": 1
+        },
+        "cardinality": "low"
+      },
+      "removed:shelter_ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "8169": 1,
+          "03-531": 1
+        },
+        "cardinality": "low"
+      },
+      "was:shelter_ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "1259": 1
+        },
+        "cardinality": "low"
+      },
+      "image": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "http://storage2.openstreetcam.org/files/photo/2016/11/12/lth/27232_b32c8_58277e8ddbb11.jpg": 1
+        },
+        "cardinality": "low"
+      },
+      "colour": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "green": 1
+        },
+        "cardinality": "low"
+      },
+      "man_made": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "street_cabinet": 1
+        },
+        "cardinality": "low"
+      },
+      "route:ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "736;735": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:bin": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "2026-05-07": 1
+        },
+        "cardinality": "low"
+      },
+      "was:ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "7030": 1
+        },
+        "cardinality": "low"
+      },
+      "name:he": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "\u05e9\u05d0\u05d8\u05dc \u05de\u05d0\u05d5\u05e0\u05d9\u05d4": 1
+        },
+        "cardinality": "low"
+      },
+      "removed:passenger_information_display": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "removed:shelter_ref:old": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "8324": 1
+        },
+        "cardinality": "low"
+      },
+      "sign": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "loc_ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Stop 1": 1
+        },
+        "cardinality": "low"
+      },
+      "wikidata": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Q5117316": 1
+        },
+        "cardinality": "low"
+      },
+      "wikimedia_commons": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Category:Church of St. Nicholas Within, Dublin": 1
+        },
+        "cardinality": "low"
+      },
+      "wikipedia": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "en:Church of St. Nicholas Within, Dublin": 1
+        },
+        "cardinality": "low"
+      },
+      "name:signed": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "source:alt_name": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "bus stop sign": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "G1": 1
+        },
+        "cardinality": "low"
+      },
+      "disused:highway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "bus_stop": 1
+        },
+        "cardinality": "low"
+      },
+      "bus_routes": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "15;25X;27;27X;32X;33X;39X;41X;51D;51X;66X;67X;84X;142;150;151;757": 1
+        },
+        "cardinality": "low"
+      },
+      "addr:street": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "The Coombe": 1
+        },
+        "cardinality": "low"
+      },
+      "fare_zone": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Dublin City": 1
+        },
+        "cardinality": "low"
+      }
+    }
+  },
+  "osm_platforms": {
+    "dataset": "OSM PT platforms",
+    "n_features": 2239,
+    "fields": {
+      "public_transport": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2239,
+        "distinct_values": {
+          "platform": 2239
+        },
+        "cardinality": "low"
+      },
+      "osm_type": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2239,
+        "distinct_values": {
+          "node": 2099,
+          "way": 140
+        },
+        "cardinality": "low"
+      },
+      "osm_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 2239,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "249421153",
+          "249423023",
+          "249423028",
+          "249426203",
+          "249426548"
+        ]
+      },
+      "highway": {
+        "fill_rate_pct": 95.9,
+        "non_null_count": 2148,
+        "distinct_values": {
+          "bus_stop": 2095,
+          "footway": 48,
+          "platform": 5
+        },
+        "cardinality": "low"
+      },
+      "shelter": {
+        "fill_rate_pct": 95.3,
+        "non_null_count": 2133,
+        "distinct_values": {
+          "no": 1411,
+          "yes": 722
+        },
+        "cardinality": "low"
+      },
+      "name": {
+        "fill_rate_pct": 94.6,
+        "non_null_count": 2118,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Amiens Street, Connolly Station",
+          "Westmoreland Street",
+          "Celtic Park Road",
+          "Belton Park Road",
+          "Oak Road"
+        ]
+      },
+      "bus": {
+        "fill_rate_pct": 93.6,
+        "non_null_count": 2096,
+        "distinct_values": {
+          "yes": 2096
+        },
+        "cardinality": "low"
+      },
+      "network": {
+        "fill_rate_pct": 93.0,
+        "non_null_count": 2083,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Transport for Ireland",
+          "Dublin Bus",
+          "Aircoach",
+          "City Sightseeing",
+          "Expressway"
+        ]
+      },
+      "operator": {
+        "fill_rate_pct": 92.6,
+        "non_null_count": 2073,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Dublin Bus",
+          "Dublin Bus;Go-Ahead Ireland",
+          "Go-Ahead Ireland",
+          "Bus \u00c9ireann",
+          "Aircoach"
+        ]
+      },
+      "bench": {
+        "fill_rate_pct": 91.6,
+        "non_null_count": 2051,
+        "distinct_values": {
+          "no": 1479,
+          "yes": 572
+        },
+        "cardinality": "low"
+      },
+      "network:wikidata": {
+        "fill_rate_pct": 89.8,
+        "non_null_count": 2011,
+        "distinct_values": {
+          "Q17100681": 1097,
+          "Q1263090": 854,
+          "Q4698488": 30,
+          "Q111326049": 14,
+          "Q117196712": 11,
+          "Q15712847": 3,
+          "Q5155093": 2
+        },
+        "cardinality": "low"
+      },
+      "lit": {
+        "fill_rate_pct": 89.3,
+        "non_null_count": 2000,
+        "distinct_values": {
+          "yes": 1975,
+          "no": 25
+        },
+        "cardinality": "low"
+      },
+      "tactile_paving": {
+        "fill_rate_pct": 80.3,
+        "non_null_count": 1799,
+        "distinct_values": {
+          "yes": 1029,
+          "no": 770
+        },
+        "cardinality": "low"
+      },
+      "ref": {
+        "fill_rate_pct": 78.7,
+        "non_null_count": 1763,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "1192",
+          "1186",
+          "1185",
+          "669",
+          "523"
+        ]
+      },
+      "network:wikipedia": {
+        "fill_rate_pct": 78.5,
+        "non_null_count": 1757,
+        "distinct_values": {
+          "en:National Transport Authority (Ireland)": 902,
+          "en:Dublin Bus": 845,
+          "en:Aircoach": 7,
+          "en:Irish Citylink": 3
+        },
+        "cardinality": "low"
+      },
+      "website": {
+        "fill_rate_pct": 75.2,
+        "non_null_count": 1683,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB001192",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB001186",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB001185",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8220DB000669",
+          "https://www.transportforireland.ie/plan-a-journey/live-departures/?stopId=8250DB000523"
+        ]
+      },
+      "bin": {
+        "fill_rate_pct": 65.9,
+        "non_null_count": 1475,
+        "distinct_values": {
+          "yes": 740,
+          "no": 732,
+          "separate": 3
+        },
+        "cardinality": "low"
+      },
+      "wheelchair": {
+        "fill_rate_pct": 57.9,
+        "non_null_count": 1297,
+        "distinct_values": {
+          "yes": 810,
+          "limited": 460,
+          "no": 27
+        },
+        "cardinality": "low"
+      },
+      "route_ref": {
+        "fill_rate_pct": 54.1,
+        "non_null_count": 1211,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "40e;120",
+          "15;49;65;65b",
+          "14;31d;N4",
+          "90",
+          "29a;31;31a;31b;31d;32;104"
+        ]
+      },
+      "passenger_information_display": {
+        "fill_rate_pct": 38.0,
+        "non_null_count": 851,
+        "distinct_values": {
+          "no": 520,
+          "yes": 330,
+          "timetable": 1
+        },
+        "cardinality": "low"
+      },
+      "surface": {
+        "fill_rate_pct": 28.9,
+        "non_null_count": 648,
+        "distinct_values": {
+          "concrete": 553,
+          "paving_stones": 48,
+          "asphalt": 36,
+          "paved": 8,
+          "brick": 2,
+          "sett": 1
+        },
+        "cardinality": "low"
+      },
+      "covered": {
+        "fill_rate_pct": 23.5,
+        "non_null_count": 527,
+        "distinct_values": {
+          "no": 509,
+          "yes": 18
+        },
+        "cardinality": "low"
+      },
+      "network:website": {
+        "fill_rate_pct": 16.5,
+        "non_null_count": 369,
+        "distinct_values": {
+          "https://www.transportforireland.ie/": 369
+        },
+        "cardinality": "low"
+      },
+      "name:ga": {
+        "fill_rate_pct": 14.6,
+        "non_null_count": 327,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "P\u00e1irc Belgrove",
+          "Marglann Marino, Col\u00e1iste Marino",
+          "Droichead Coise Fhionnradhairc",
+          "B\u00f3thar na Tr\u00e1 Thuaidh, Ascaill Radharc an Chuain",
+          "Sr\u00e1id Amiens, Rae Portland"
+        ]
+      },
+      "departures_board": {
+        "fill_rate_pct": 14.2,
+        "non_null_count": 319,
+        "distinct_values": {
+          "timetable": 144,
+          "no": 99,
+          "realtime": 64,
+          "yes": 8,
+          "realtime;timetable": 4
+        },
+        "cardinality": "low"
+      },
+      "tactile_writing:braille:en": {
+        "fill_rate_pct": 11.9,
+        "non_null_count": 266,
+        "distinct_values": {
+          "no": 164,
+          "yes": 102
+        },
+        "cardinality": "low"
+      },
+      "name:en": {
+        "fill_rate_pct": 11.1,
+        "non_null_count": 249,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Celtic Park Road",
+          "Belton Park Road",
+          "Oak Road",
+          "Marino Mart, Marino College",
+          "Marino Mart, Fairview Footbridge"
+        ]
+      },
+      "pole": {
+        "fill_rate_pct": 10.4,
+        "non_null_count": 232,
+        "distinct_values": {
+          "yes": 179,
+          "no": 52,
+          "pole": 1
+        },
+        "cardinality": "low"
+      },
+      "shelter_ref": {
+        "fill_rate_pct": 7.1,
+        "non_null_count": 158,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "03-500",
+          "03-532",
+          "09-562",
+          "06-544",
+          "06-510"
+        ]
+      },
+      "railway": {
+        "fill_rate_pct": 6.1,
+        "non_null_count": 136,
+        "distinct_values": {
+          "platform": 136
+        },
+        "cardinality": "low"
+      },
+      "local_ref": {
+        "fill_rate_pct": 3.8,
+        "non_null_count": 85,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "CF",
+          "OS",
+          "CK",
+          "CD",
+          "EM"
+        ]
+      },
+      "check_date:shelter": {
+        "fill_rate_pct": 3.4,
+        "non_null_count": 77,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2025-10-18",
+          "2025-10-19",
+          "2025-10-20",
+          "2026-01-23",
+          "2026-05-08"
+        ]
+      },
+      "tram": {
+        "fill_rate_pct": 3.1,
+        "non_null_count": 69,
+        "distinct_values": {
+          "yes": 69
+        },
+        "cardinality": "low"
+      },
+      "operator:wikidata": {
+        "fill_rate_pct": 2.9,
+        "non_null_count": 64,
+        "distinct_values": {
+          "Q1263090": 35,
+          "Q1017233": 19,
+          "Q117196712": 8,
+          "Q73043": 2
+        },
+        "cardinality": "low"
+      },
+      "source": {
+        "fill_rate_pct": 2.8,
+        "non_null_count": 63,
+        "distinct_values": {
+          "bing": 28,
+          "survey": 24,
+          "Bing": 8,
+          "local knowledge": 2,
+          "website": 1
+        },
+        "cardinality": "low"
+      },
+      "fixme": {
+        "fill_rate_pct": 2.8,
+        "non_null_count": 62,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Check ref.",
+          "Check details",
+          "Location. Details.",
+          "No ref on site",
+          "Check tactile_writing:braille:en=yes and departures_board=timetable"
+        ]
+      },
+      "alt_name": {
+        "fill_rate_pct": 2.8,
+        "non_null_count": 62,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "South Frederick Street",
+          "Fleet Street",
+          "Barrow Street",
+          "Custom House Quay",
+          "Westmoreland Street"
+        ]
+      },
+      "note": {
+        "fill_rate_pct": 2.7,
+        "non_null_count": 61,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Set down only",
+          "Name does not match street - sign on site incorrect.",
+          "Set-down stop only for buses that terminate on UCD campus.",
+          "Under bridge.",
+          "Dublin Bus route 1 terminus."
+        ]
+      },
+      "operator:website": {
+        "fill_rate_pct": 2.5,
+        "non_null_count": 56,
+        "distinct_values": {
+          "https://www.goaheadireland.ie/": 40,
+          "https://www.wexfordbus.com/": 8,
+          "https://www.buseireann.ie/": 5,
+          "https://jjkavanagh.ie/": 1,
+          "http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=view&searchquery=7601": 1,
+          "https://city-sightseeing.com/en/50/dublin": 1
+        },
+        "cardinality": "low"
+      },
+      "train": {
+        "fill_rate_pct": 2.5,
+        "non_null_count": 56,
+        "distinct_values": {
+          "yes": 56
+        },
+        "cardinality": "low"
+      },
+      "area": {
+        "fill_rate_pct": 2.1,
+        "non_null_count": 47,
+        "distinct_values": {
+          "yes": 47
+        },
+        "cardinality": "low"
+      },
+      "operator:wikipedia": {
+        "fill_rate_pct": 1.9,
+        "non_null_count": 43,
+        "distinct_values": {
+          "en:Dublin Bus": 30,
+          "en:Bus \u00c9ireann": 13
+        },
+        "cardinality": "low"
+      },
+      "mapillary": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 36,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "CEppLOiTYnHFYhDRY0a_2w",
+          "DEhE2WorVBQ6ulbEolPp7A",
+          "1103652943465977",
+          "uz6Z6blgt3X_3SiQKFmCWw",
+          "tA1N4oF6SMtArzfM3yrmTg"
+        ]
+      },
+      "check_date:bench": {
+        "fill_rate_pct": 1.5,
+        "non_null_count": 33,
+        "distinct_values": {
+          "2025-10-19": 9,
+          "2025-10-18": 4,
+          "2026-05-08": 3,
+          "2024-09-28": 3,
+          "2022-06-16": 2,
+          "2025-10-20": 2,
+          "2026-08-03": 2,
+          "2026-01-23": 1,
+          "2026-05-07": 1,
+          "2024-08-26": 1,
+          "2026-05-05": 1,
+          "2026-04-10": 1,
+          "2025-08-15": 1,
+          "2025-07-06": 1,
+          "2023-01-22": 1
+        },
+        "cardinality": "low"
+      },
+      "layer": {
+        "fill_rate_pct": 1.4,
+        "non_null_count": 31,
+        "distinct_values": {
+          "1": 17,
+          "-1": 12,
+          "2": 2
+        },
+        "cardinality": "low"
+      },
+      "level": {
+        "fill_rate_pct": 1.1,
+        "non_null_count": 25,
+        "distinct_values": {
+          "0": 14,
+          "2": 7,
+          "1": 4
+        },
+        "cardinality": "low"
+      },
+      "survey:date": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 21,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2018-04-22",
+          "2017-12-09",
+          "2018-10-16",
+          "2017-04-02",
+          "2016-11-12"
+        ]
+      },
+      "kerb": {
+        "fill_rate_pct": 0.8,
+        "non_null_count": 18,
+        "distinct_values": {
+          "raised": 17,
+          "lowered": 1
+        },
+        "cardinality": "low"
+      },
+      "kerb:approach_aid": {
+        "fill_rate_pct": 0.8,
+        "non_null_count": 18,
+        "distinct_values": {
+          "no": 10,
+          "yes": 8
+        },
+        "cardinality": "low"
+      },
+      "disused": {
+        "fill_rate_pct": 0.8,
+        "non_null_count": 18,
+        "distinct_values": {
+          "yes": 18
+        },
+        "cardinality": "low"
+      },
+      "object:street": {
+        "fill_rate_pct": 0.7,
+        "non_null_count": 15,
+        "distinct_values": {
+          "O'Connell Street Upper": 14,
+          "O'Connell Street Lower": 1
+        },
+        "cardinality": "low"
+      },
+      "foot": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 13,
+        "distinct_values": {
+          "customers": 6,
+          "yes": 5,
+          "private": 2
+        },
+        "cardinality": "low"
+      },
+      "flag": {
+        "fill_rate_pct": 0.5,
+        "non_null_count": 12,
+        "distinct_values": {
+          "yes": 8,
+          "no": 4
+        },
+        "cardinality": "low"
+      },
+      "width": {
+        "fill_rate_pct": 0.5,
+        "non_null_count": 11,
+        "distinct_values": {
+          "3": 5,
+          "4": 4,
+          "2": 2
+        },
+        "cardinality": "low"
+      },
+      "shelter_ref:old": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 8,
+        "distinct_values": {
+          "2932": 1,
+          "4680": 1,
+          "1248": 1,
+          "1127": 1,
+          "2581": 1,
+          "5912": 1,
+          "8181": 1,
+          "4610": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 8,
+        "distinct_values": {
+          "yes": 8
+        },
+        "cardinality": "low"
+      },
+      "footway": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 8,
+        "distinct_values": {
+          "sidewalk": 8
+        },
+        "cardinality": "low"
+      },
+      "set_down": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 7,
+        "distinct_values": {
+          "yes": 5,
+          "only": 2
+        },
+        "cardinality": "low"
+      },
+      "wheelchair:description": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 7,
+        "distinct_values": {
+          "Access is via short, slightly steep ramp.": 1,
+          "Low kerb.": 1,
+          "Wheelchair access limited as bus stop in parking bay at speed hump": 1,
+          "No dished kerb.": 1,
+          "No sidewalk ont his side of road, hardstand only. Dished kerb to cross road.": 1,
+          "Kassel kerb, but access to footpath is across 5 metres of grass.": 1,
+          "Kerb, but no Kassel kerb.": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:tactile_paving": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 6,
+        "distinct_values": {
+          "2026-02-22": 1,
+          "2025-09-29": 1,
+          "2022-10-30": 1,
+          "2021-06-27": 1,
+          "2021-04-26": 1,
+          "2023-09-05": 1
+        },
+        "cardinality": "low"
+      },
+      "passenger_information_display:speech_output": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 6,
+        "distinct_values": {
+          "no": 6
+        },
+        "cardinality": "low"
+      },
+      "description": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 6,
+        "distinct_values": {
+          "Set Down Only": 4,
+          "Modern bus stop with adjacent traditional former tram shelter.": 1,
+          "Under renovation; shelter, bench, and timetable are temporarily removed as of December 2024.": 1
+        },
+        "cardinality": "low"
+      },
+      "not:network:wikidata": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 5,
+        "distinct_values": {
+          "Q1263090": 5
+        },
+        "cardinality": "low"
+      },
+      "wikidata": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 5,
+        "distinct_values": {
+          "Q104881402": 2,
+          "Q4972306": 2,
+          "Q5117316": 1
+        },
+        "cardinality": "low"
+      },
+      "platforms": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 5,
+        "distinct_values": {
+          "1": 5
+        },
+        "cardinality": "low"
+      },
+      "smoothness": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 5,
+        "distinct_values": {
+          "good": 3,
+          "excellent": 2
+        },
+        "cardinality": "low"
+      },
+      "alt_name:en": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Westland Row": 1,
+          "Sandwith Street;Lombard Street East": 1,
+          "Wellington Quay": 1,
+          "Sandwith Street": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_name:ga": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Rae an Iarthair": 1,
+          "Sr\u00e1id Sandwith;Sr\u00e1id Lombard Thoir": 1,
+          "C\u00e9 Wellington": 1,
+          "Sr\u00e1id Sandwith": 1
+        },
+        "cardinality": "low"
+      },
+      "stop": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "stop_exit_only": 4
+        },
+        "cardinality": "low"
+      },
+      "check_date": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 3,
+        "distinct_values": {
+          "2026-02-22": 1,
+          "2025-09-29": 1,
+          "2026-05-07": 1
+        },
+        "cardinality": "low"
+      },
+      "source:ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 3,
+        "distinct_values": {
+          "survey": 1,
+          "https://www.dublinbus.ie/RTPI/Sources-of-Real-Time-Information/?searchtype=view&searchquery=7706": 1,
+          "email": 1
+        },
+        "cardinality": "low"
+      },
+      "ref:signed": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "timetable": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "real_time": 2
+        },
+        "cardinality": "low"
+      },
+      "contrast_strip": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "check_date:bin": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "2026-05-07": 1,
+          "2022-11-08": 1
+        },
+        "cardinality": "low"
+      },
+      "name:ru": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "\u043f\u0440\u0438\u0435\u0445\u0430\u043b\u0438 \u0438\u0437 \u0411\u0435\u043b\u0444\u0430\u0441\u0442\u0430": 1,
+          "\u0410\u0432\u0442\u043e\u0431\u0443\u0441 \u0434\u043e \u041a\u0430\u0441\u043b\u0431\u0430\u0440\u0430": 1
+        },
+        "cardinality": "low"
+      },
+      "panoramax": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "7fe68b4c-029f-4a98-9f41-3003a4a90253": 1,
+          "3b2961cd-9f2e-436e-ba2b-6e65f8a7390e": 1
+        },
+        "cardinality": "low"
+      },
+      "old_name": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "South Circular Road, Clogher Road;South Circular Road, Donore Avenue": 1,
+          "Silvercrest Foods": 1
+        },
+        "cardinality": "low"
+      },
+      "removed:shelter_ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "8169": 1,
+          "03-531": 1
+        },
+        "cardinality": "low"
+      },
+      "addr:street": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "The Coombe": 1,
+          "No. 1, Aston Quay": 1
+        },
+        "cardinality": "low"
+      },
+      "announcement": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "no": 1,
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "operator:en": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Irish Rail": 2
+        },
+        "cardinality": "low"
+      },
+      "operator:ga": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Iarnr\u00f3d \u00c9ireann": 2
+        },
+        "cardinality": "low"
+      },
+      "railway:ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "CTARF": 2
+        },
+        "cardinality": "low"
+      },
+      "cutting": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "bicycle": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "customers": 2
+        },
+        "cardinality": "low"
+      },
+      "horse": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "motor_vehicle": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "start_date": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "2021-09-26": 2
+        },
+        "cardinality": "low"
+      },
+      "bridge:ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "UBR63C": 2
+        },
+        "cardinality": "low"
+      },
+      "access": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "private": 2
+        },
+        "cardinality": "low"
+      },
+      "was:shelter_ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "1259": 1
+        },
+        "cardinality": "low"
+      },
+      "image": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "http://storage2.openstreetcam.org/files/photo/2016/11/12/lth/27232_b32c8_58277e8ddbb11.jpg": 1
+        },
+        "cardinality": "low"
+      },
+      "colour": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "green": 1
+        },
+        "cardinality": "low"
+      },
+      "man_made": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "street_cabinet": 1
+        },
+        "cardinality": "low"
+      },
+      "route:ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "736;735": 1
+        },
+        "cardinality": "low"
+      },
+      "was:ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "7030": 1
+        },
+        "cardinality": "low"
+      },
+      "name:he": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "\u05e9\u05d0\u05d8\u05dc \u05de\u05d0\u05d5\u05e0\u05d9\u05d4": 1
+        },
+        "cardinality": "low"
+      },
+      "removed:passenger_information_display": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "removed:shelter_ref:old": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "8324": 1
+        },
+        "cardinality": "low"
+      },
+      "sign": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "loc_ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Stop 1": 1
+        },
+        "cardinality": "low"
+      },
+      "wikimedia_commons": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Category:Church of St. Nicholas Within, Dublin": 1
+        },
+        "cardinality": "low"
+      },
+      "wikipedia": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "en:Church of St. Nicholas Within, Dublin": 1
+        },
+        "cardinality": "low"
+      },
+      "name:signed": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "source:alt_name": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "bus stop sign": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "G1": 1
+        },
+        "cardinality": "low"
+      },
+      "amenity": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "taxi": 1
+        },
+        "cardinality": "low"
+      },
+      "disused:highway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "bus_stop": 1
+        },
+        "cardinality": "low"
+      },
+      "bus_routes": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "15;25X;27;27X;32X;33X;39X;41X;51D;51X;66X;67X;84X;142;150;151;757": 1
+        },
+        "cardinality": "low"
+      },
+      "fare_zone": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Dublin City": 1
+        },
+        "cardinality": "low"
+      },
+      "disused:railway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "platform": 1
+        },
+        "cardinality": "low"
+      },
+      "platform_lift": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "ramp": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "ramp:portable": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "light_rail": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      }
+    }
+  },
+  "osm_taxi_ranks": {
+    "dataset": "OSM taxi ranks",
+    "n_features": 61,
+    "fields": {
+      "amenity": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 61,
+        "distinct_values": {
+          "taxi": 61
+        },
+        "cardinality": "low"
+      },
+      "osm_type": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 61,
+        "distinct_values": {
+          "node": 58,
+          "way": 3
+        },
+        "cardinality": "low"
+      },
+      "osm_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 61,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "312168115",
+          "323867085",
+          "440860778",
+          "497114466",
+          "564978997"
+        ]
+      },
+      "name": {
+        "fill_rate_pct": 45.9,
+        "non_null_count": 28,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Faussagh Avenue",
+          "Sundrive Road",
+          "Foster Place",
+          "Aston Quay",
+          "Barryscourt Road"
+        ]
+      },
+      "operator": {
+        "fill_rate_pct": 42.6,
+        "non_null_count": 26,
+        "distinct_values": {
+          "Dublin City Council": 23,
+          "National Radio Cabs": 1,
+          "Beaumont Hospital": 1,
+          "VIP Taxis": 1
+        },
+        "cardinality": "low"
+      },
+      "capacity": {
+        "fill_rate_pct": 31.1,
+        "non_null_count": 19,
+        "distinct_values": {
+          "6": 4,
+          "3": 4,
+          "4": 3,
+          "8": 2,
+          "11": 2,
+          "10": 1,
+          "15": 1,
+          "2": 1,
+          "1": 1
+        },
+        "cardinality": "low"
+      },
+      "addr:street": {
+        "fill_rate_pct": 19.7,
+        "non_null_count": 12,
+        "distinct_values": {
+          "Cullenswood Road": 2,
+          "Cork Street": 2,
+          "Willow Park Crescent": 1,
+          "Glasnevin Avenue": 1,
+          "James Street": 1,
+          "Christchurch Place": 1,
+          "Barrow Street": 1,
+          "Kevin Street Lower": 1,
+          "Drimnagh Road": 1,
+          "Fassaugh Avenue": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date": {
+        "fill_rate_pct": 14.8,
+        "non_null_count": 9,
+        "distinct_values": {
+          "2026-05-18": 1,
+          "2024-03-03": 1,
+          "2024-06-22": 1,
+          "2023-02-24": 1,
+          "2023-02-09": 1,
+          "2023-05-05": 1,
+          "2026-08-19": 1,
+          "2026-02-09": 1,
+          "2025-10-19": 1
+        },
+        "cardinality": "low"
+      },
+      "phone": {
+        "fill_rate_pct": 14.8,
+        "non_null_count": 9,
+        "distinct_values": {
+          "+353 1 847 4000": 1,
+          "+353 1 473 0500": 1,
+          "+353 1 8343435": 1,
+          "+353 1 8642020": 1,
+          "+353 1 842 4444": 1,
+          "+353 1 677 2222": 1,
+          "+35314783333": 1,
+          "+35314551122": 1,
+          "+353 1 8388344": 1
+        },
+        "cardinality": "low"
+      },
+      "addr:city": {
+        "fill_rate_pct": 13.1,
+        "non_null_count": 8,
+        "distinct_values": {
+          "Dublin": 8
+        },
+        "cardinality": "low"
+      },
+      "opening_hours": {
+        "fill_rate_pct": 6.6,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Mo-Su 20:00-06:00": 2,
+          "Night only": 1,
+          "Mo-Sa 09:00-18:00": 1
+        },
+        "cardinality": "low"
+      },
+      "addr:housenumber": {
+        "fill_rate_pct": 6.6,
+        "non_null_count": 4,
+        "distinct_values": {
+          "40": 1,
+          "90-97": 1,
+          "161": 1,
+          "28": 1
+        },
+        "cardinality": "low"
+      },
+      "shelter": {
+        "fill_rate_pct": 4.9,
+        "non_null_count": 3,
+        "distinct_values": {
+          "yes": 3
+        },
+        "cardinality": "low"
+      },
+      "website": {
+        "fill_rate_pct": 4.9,
+        "non_null_count": 3,
+        "distinct_values": {
+          "http://www.dublincity.ie/main-menu-services-roads-and-traffic-general-traffic-measures/taxi-ranks": 1,
+          "https://www.nrc.ie/": 1,
+          "https://viptaxis.ie": 1
+        },
+        "cardinality": "low"
+      },
+      "wheelchair": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "brand": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Leonardo Hotels": 1
+        },
+        "cardinality": "low"
+      },
+      "old_name": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Jury's Inn": 1
+        },
+        "cardinality": "low"
+      },
+      "note": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Taxi office": 1
+        },
+        "cardinality": "low"
+      },
+      "bench": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "bin": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:shelter": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "2023-02-28": 1
+        },
+        "cardinality": "low"
+      },
+      "public_transport": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "platform": 1
+        },
+        "cardinality": "low"
+      },
+      "tactile_paving": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "description": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "VIP Taxis is a leading corporate taxi company, located in Dublin, Ireland.": 1
+        },
+        "cardinality": "low"
+      },
+      "email": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "info@viptaxis.ie": 1
+        },
+        "cardinality": "low"
+      },
+      "payment:american_express": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "payment:cash": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "payment:credit_cards": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "payment:debit_cards": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "payment:mastercard": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "payment:visa": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "addr:country": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "IE": 1
+        },
+        "cardinality": "low"
+      },
+      "building": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "commercial": 1
+        },
+        "cardinality": "low"
+      },
+      "building:colour": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "red": 1
+        },
+        "cardinality": "low"
+      },
+      "building:levels": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "2": 1
+        },
+        "cardinality": "low"
+      },
+      "building:material": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "brick": 1
+        },
+        "cardinality": "low"
+      },
+      "roof:shape": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 1,
+        "distinct_values": {
+          "gabled_row": 1
+        },
+        "cardinality": "low"
+      }
+    }
+  },
+  "osm_cycling": {
+    "dataset": "OSM cycling ways",
+    "n_features": 1600,
+    "fields": {
+      "highway": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1600,
+        "distinct_values": {
+          "cycleway": 1297,
+          "secondary": 246,
+          "tertiary": 43,
+          "residential": 5,
+          "unclassified": 5,
+          "service": 4
+        },
+        "cardinality": "low"
+      },
+      "osm_type": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1600,
+        "distinct_values": {
+          "way": 1600
+        },
+        "cardinality": "low"
+      },
+      "osm_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1600,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "3787625",
+          "3792286",
+          "3809974",
+          "4215578",
+          "4215580"
+        ]
+      },
+      "length_m": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1600,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "56.43",
+          "1022.38",
+          "247.21",
+          "363.17",
+          "1369.37"
+        ]
+      },
+      "surface": {
+        "fill_rate_pct": 96.4,
+        "non_null_count": 1542,
+        "distinct_values": {
+          "asphalt": 1193,
+          "concrete": 156,
+          "paved": 97,
+          "paving_stones": 87,
+          "sett": 8,
+          "concrete:plates": 1
+        },
+        "cardinality": "low"
+      },
+      "oneway": {
+        "fill_rate_pct": 58.6,
+        "non_null_count": 938,
+        "distinct_values": {
+          "yes": 517,
+          "no": 421
+        },
+        "cardinality": "low"
+      },
+      "foot": {
+        "fill_rate_pct": 42.3,
+        "non_null_count": 677,
+        "distinct_values": {
+          "designated": 386,
+          "yes": 208,
+          "no": 82,
+          "private": 1
+        },
+        "cardinality": "low"
+      },
+      "lit": {
+        "fill_rate_pct": 39.9,
+        "non_null_count": 638,
+        "distinct_values": {
+          "yes": 628,
+          "no": 10
+        },
+        "cardinality": "low"
+      },
+      "name": {
+        "fill_rate_pct": 38.5,
+        "non_null_count": 616,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Chesterfield Avenue",
+          "South Circular Road",
+          "Robert Emmet Bridge",
+          "Botanic Road",
+          "Griffith Avenue"
+        ]
+      },
+      "segregated": {
+        "fill_rate_pct": 36.7,
+        "non_null_count": 587,
+        "distinct_values": {
+          "no": 436,
+          "yes": 151
+        },
+        "cardinality": "low"
+      },
+      "cycleway": {
+        "fill_rate_pct": 33.1,
+        "non_null_count": 529,
+        "distinct_values": {
+          "lane": 266,
+          "crossing": 189,
+          "sidewalk": 36,
+          "track": 25,
+          "shared_lane": 10,
+          "soft_lane": 2,
+          "link": 1
+        },
+        "cardinality": "low"
+      },
+      "name:ga": {
+        "fill_rate_pct": 31.6,
+        "non_null_count": 505,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Ascaill Chesterfield",
+          "Cuarb\u00f3thar Theas",
+          "B\u00f3thar Gharraithe na Lus",
+          "Ascaill U\u00ed Ghr\u00edofa",
+          "B\u00f3thar Na Buaille"
+        ]
+      },
+      "name:en": {
+        "fill_rate_pct": 30.4,
+        "non_null_count": 487,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Chesterfield Avenue",
+          "South Circular Road",
+          "Robert Emmet Bridge",
+          "Botanic Road",
+          "Griffith Avenue"
+        ]
+      },
+      "bicycle": {
+        "fill_rate_pct": 28.6,
+        "non_null_count": 458,
+        "distinct_values": {
+          "designated": 420,
+          "yes": 29,
+          "permissive": 8,
+          "private": 1
+        },
+        "cardinality": "low"
+      },
+      "lanes": {
+        "fill_rate_pct": 20.7,
+        "non_null_count": 331,
+        "distinct_values": {
+          "2": 208,
+          "3": 75,
+          "4": 36,
+          "1": 7,
+          "5": 5
+        },
+        "cardinality": "low"
+      },
+      "maxspeed": {
+        "fill_rate_pct": 19.4,
+        "non_null_count": 310,
+        "distinct_values": {
+          "50": 245,
+          "30": 51,
+          "60": 14
+        },
+        "cardinality": "low"
+      },
+      "logainm:ref": {
+        "fill_rate_pct": 18.9,
+        "non_null_count": 302,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "No entry",
+          "1379752",
+          "1379353",
+          "1380609",
+          "1380053"
+        ]
+      },
+      "logainm:url": {
+        "fill_rate_pct": 18.9,
+        "non_null_count": 302,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "No entry",
+          "https://www.logainm.ie/1379752.aspx",
+          "https://www.logainm.ie/1379353.aspx",
+          "https://www.logainm.ie/1380609.aspx",
+          "https://www.logainm.ie/1380053.aspx"
+        ]
+      },
+      "ref": {
+        "fill_rate_pct": 16.6,
+        "non_null_count": 265,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "R114",
+          "R111",
+          "R137",
+          "R117",
+          "R118"
+        ]
+      },
+      "sidewalk": {
+        "fill_rate_pct": 14.9,
+        "non_null_count": 239,
+        "distinct_values": {
+          "both": 117,
+          "left": 72,
+          "separate": 33,
+          "no": 8,
+          "right": 6,
+          "yes": 3
+        },
+        "cardinality": "low"
+      },
+      "lane_markings": {
+        "fill_rate_pct": 14.6,
+        "non_null_count": 233,
+        "distinct_values": {
+          "yes": 222,
+          "no": 11
+        },
+        "cardinality": "low"
+      },
+      "crossing": {
+        "fill_rate_pct": 11.8,
+        "non_null_count": 189,
+        "distinct_values": {
+          "marked": 132,
+          "traffic_signals": 27,
+          "unmarked": 27,
+          "uncontrolled": 3
+        },
+        "cardinality": "low"
+      },
+      "width": {
+        "fill_rate_pct": 9.1,
+        "non_null_count": 145,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "1.5"
+        ]
+      },
+      "smoothness": {
+        "fill_rate_pct": 8.9,
+        "non_null_count": 142,
+        "distinct_values": {
+          "excellent": 94,
+          "good": 38,
+          "intermediate": 7,
+          "bad": 3
+        },
+        "cardinality": "low"
+      },
+      "layer": {
+        "fill_rate_pct": 5.0,
+        "non_null_count": 80,
+        "distinct_values": {
+          "1": 75,
+          "-1": 5
+        },
+        "cardinality": "low"
+      },
+      "bridge": {
+        "fill_rate_pct": 4.9,
+        "non_null_count": 78,
+        "distinct_values": {
+          "yes": 75,
+          "movable": 3
+        },
+        "cardinality": "low"
+      },
+      "cycleway:surface": {
+        "fill_rate_pct": 4.8,
+        "non_null_count": 76,
+        "distinct_values": {
+          "asphalt": 57,
+          "concrete": 14,
+          "paving_stones": 5
+        },
+        "cardinality": "low"
+      },
+      "crossing:markings": {
+        "fill_rate_pct": 3.8,
+        "non_null_count": 60,
+        "distinct_values": {
+          "yes": 26,
+          "no": 14,
+          "lines": 9,
+          "zebra": 6,
+          "dashes": 3,
+          "Dotted": 2
+        },
+        "cardinality": "low"
+      },
+      "alt_name:ga": {
+        "fill_rate_pct": 3.7,
+        "non_null_count": 59,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "B\u00f3thar R\u00e1th gCearr",
+          "B\u00f3thar an Choill Mh\u00f3ir",
+          "B\u00f3thar Pheambr\u00f3g",
+          "B\u00f3thar Sairs\u00e9al",
+          "B\u00f3thar Northumberland"
+        ]
+      },
+      "incline": {
+        "fill_rate_pct": 3.3,
+        "non_null_count": 53,
+        "distinct_values": {
+          "0%": 23,
+          "down": 15,
+          "up": 14,
+          "5%": 1
+        },
+        "cardinality": "low"
+      },
+      "footway:surface": {
+        "fill_rate_pct": 3.2,
+        "non_null_count": 52,
+        "distinct_values": {
+          "concrete": 27,
+          "asphalt": 17,
+          "paving_stones": 7,
+          "compacted": 1
+        },
+        "cardinality": "low"
+      },
+      "source": {
+        "fill_rate_pct": 2.2,
+        "non_null_count": 35,
+        "distinct_values": {
+          "Bing Aerial Imagery (2021-02-22)": 32,
+          "Bing": 2,
+          "Fingal County Council": 1
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:left": {
+        "fill_rate_pct": 2.0,
+        "non_null_count": 32,
+        "distinct_values": {
+          "separate": 27,
+          "yes": 5
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:right": {
+        "fill_rate_pct": 1.7,
+        "non_null_count": 27,
+        "distinct_values": {
+          "separate": 11,
+          "yes": 8,
+          "no": 8
+        },
+        "cardinality": "low"
+      },
+      "horse": {
+        "fill_rate_pct": 1.7,
+        "non_null_count": 27,
+        "distinct_values": {
+          "no": 16,
+          "yes": 11
+        },
+        "cardinality": "low"
+      },
+      "lanes:forward": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 25,
+        "distinct_values": {
+          "2": 18,
+          "1": 7
+        },
+        "cardinality": "low"
+      },
+      "motor_vehicle": {
+        "fill_rate_pct": 1.5,
+        "non_null_count": 24,
+        "distinct_values": {
+          "no": 21,
+          "private": 3
+        },
+        "cardinality": "low"
+      },
+      "lanes:backward": {
+        "fill_rate_pct": 1.4,
+        "non_null_count": 23,
+        "distinct_values": {
+          "1": 15,
+          "2": 8
+        },
+        "cardinality": "low"
+      },
+      "old_name": {
+        "fill_rate_pct": 1.2,
+        "non_null_count": 20,
+        "distinct_values": {
+          "Street of the theng-mote": 5,
+          "French Walk": 3,
+          "Macken Street Bridge": 3,
+          "Gibbet Meadow": 2,
+          "South Link Road": 2,
+          "part of Slighe Dala": 2,
+          "Cold Blow Lane": 2,
+          "St Kevin's Port": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:width": {
+        "fill_rate_pct": 1.1,
+        "non_null_count": 18,
+        "distinct_values": {
+          "1": 5,
+          "2": 4,
+          "2.2": 2,
+          "1.5": 1,
+          "1.2": 1,
+          "3": 1,
+          "0.8": 1,
+          "2.6": 1,
+          "2.7": 1,
+          "2.75": 1
+        },
+        "cardinality": "low"
+      },
+      "source:width": {
+        "fill_rate_pct": 1.1,
+        "non_null_count": 18,
+        "distinct_values": {
+          "ARCore": 17,
+          "Estimated": 1
+        },
+        "cardinality": "low"
+      },
+      "maxweight": {
+        "fill_rate_pct": 1.1,
+        "non_null_count": 17,
+        "distinct_values": {
+          "3.5": 17
+        },
+        "cardinality": "low"
+      },
+      "tactile_paving": {
+        "fill_rate_pct": 1.1,
+        "non_null_count": 17,
+        "distinct_values": {
+          "yes": 15,
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "separation": {
+        "fill_rate_pct": 1.1,
+        "non_null_count": 17,
+        "distinct_values": {
+          "bump": 8,
+          "kerb": 5,
+          "bollards": 2,
+          "planter": 1,
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:both:surface": {
+        "fill_rate_pct": 1.0,
+        "non_null_count": 16,
+        "distinct_values": {
+          "paving_stones": 10,
+          "concrete": 6
+        },
+        "cardinality": "low"
+      },
+      "wheelchair": {
+        "fill_rate_pct": 1.0,
+        "non_null_count": 16,
+        "distinct_values": {
+          "yes": 16
+        },
+        "cardinality": "low"
+      },
+      "check_date:surface": {
+        "fill_rate_pct": 1.0,
+        "non_null_count": 16,
+        "distinct_values": {
+          "2025-10-19": 2,
+          "2024-08-21": 2,
+          "2024-01-30": 2,
+          "2024-10-27": 1,
+          "2025-12-30": 1,
+          "2025-12-16": 1,
+          "2024-10-05": 1,
+          "2024-10-14": 1,
+          "2026-02-24": 1,
+          "2025-11-15": 1,
+          "2023-04-24": 1,
+          "2026-01-19": 1,
+          "2025-08-06": 1
+        },
+        "cardinality": "low"
+      },
+      "wikipedia": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 15,
+        "distinct_values": {
+          "en:Clanbrassil Street": 5,
+          "en:Talbot Memorial Bridge": 5,
+          "en:Samuel Beckett Bridge": 3,
+          "en:Mount Street Lower": 2
+        },
+        "cardinality": "low"
+      },
+      "turn:lanes:forward": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 15,
+        "distinct_values": {
+          "left;through|right": 5,
+          "through|through": 4,
+          "left;through|through": 2,
+          "through|right": 2,
+          "through;right": 1,
+          "left|through": 1
+        },
+        "cardinality": "low"
+      },
+      "crossing:island": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 15,
+        "distinct_values": {
+          "no": 13,
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "ncn": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 14,
+        "distinct_values": {
+          "yes": 14
+        },
+        "cardinality": "low"
+      },
+      "ncn_ref": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 14,
+        "distinct_values": {
+          "S2S": 14
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:both": {
+        "fill_rate_pct": 0.8,
+        "non_null_count": 13,
+        "distinct_values": {
+          "separate": 11,
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "year_of_construction": {
+        "fill_rate_pct": 0.8,
+        "non_null_count": 13,
+        "distinct_values": {
+          "2020": 12,
+          "2019": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_name": {
+        "fill_rate_pct": 0.8,
+        "non_null_count": 12,
+        "distinct_values": {
+          "Harold's Cross Bridge": 3,
+          "St. Stephen's Green West": 3,
+          "Rathmines Terrace": 2,
+          "St. Stephen's Green South": 2,
+          "Portobello Bridge": 1,
+          "The Hole in the Wall Road Extension": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:name": {
+        "fill_rate_pct": 0.7,
+        "non_null_count": 11,
+        "distinct_values": {
+          "Park West Avenue Road Bridge": 5,
+          "Islandbridge": 3,
+          "Suir Road Bridge": 3
+        },
+        "cardinality": "low"
+      },
+      "footway": {
+        "fill_rate_pct": 0.7,
+        "non_null_count": 11,
+        "distinct_values": {
+          "sidewalk": 5,
+          "crossing": 4,
+          "link": 2
+        },
+        "cardinality": "low"
+      },
+      "source:old_name": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 10,
+        "distinct_values": {
+          "T C Macready": 5,
+          "Dublin Street Names C T M'Cready": 3,
+          "C T Macready": 2
+        },
+        "cardinality": "low"
+      },
+      "wikidata": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 10,
+        "distinct_values": {
+          "Q304582": 5,
+          "Q1193916": 3,
+          "Q105102150": 2
+        },
+        "cardinality": "low"
+      },
+      "traffic_calming": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 10,
+        "distinct_values": {
+          "no": 7,
+          "table": 3
+        },
+        "cardinality": "low"
+      },
+      "cycleway:lane": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 9,
+        "distinct_values": {
+          "advisory": 8,
+          "exclusive": 1
+        },
+        "cardinality": "low"
+      },
+      "towpath": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 9,
+        "distinct_values": {
+          "yes": 9
+        },
+        "cardinality": "low"
+      },
+      "start_date": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 9,
+        "distinct_values": {
+          "1980s": 5,
+          "2009": 3,
+          "1920s": 1
+        },
+        "cardinality": "low"
+      },
+      "bus": {
+        "fill_rate_pct": 0.5,
+        "non_null_count": 8,
+        "distinct_values": {
+          "private": 7,
+          "designated": 1
+        },
+        "cardinality": "low"
+      },
+      "access": {
+        "fill_rate_pct": 0.5,
+        "non_null_count": 8,
+        "distinct_values": {
+          "no": 4,
+          "permissive": 3,
+          "private": 1
+        },
+        "cardinality": "low"
+      },
+      "hgv": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 7,
+        "distinct_values": {
+          "private": 7
+        },
+        "cardinality": "low"
+      },
+      "network": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 7,
+        "distinct_values": {
+          "lcn": 7
+        },
+        "cardinality": "low"
+      },
+      "maxweight:signed": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "no": 6
+        },
+        "cardinality": "low"
+      },
+      "alt_name:en": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "St. Stephen's Green West": 3,
+          "St. Stephen's Green South": 2,
+          "Belvidere Road": 1
+        },
+        "cardinality": "low"
+      },
+      "loc_name": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "St. Stephen's Green West": 3,
+          "St. Stephen's Green South": 2,
+          "St. Stephen's Green East": 1
+        },
+        "cardinality": "low"
+      },
+      "loc_name:en": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "St. Stephen's Green West": 3,
+          "St. Stephen's Green South": 2,
+          "St. Stephen's Green East": 1
+        },
+        "cardinality": "low"
+      },
+      "loc_name:ga": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "Faiche Stiabhna Thiar": 3,
+          "Faiche Stiabhna Deisceart": 2,
+          "Faiche Stiabhna Oirthear": 1
+        },
+        "cardinality": "low"
+      },
+      "survey:date": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "2017-04-14": 2,
+          "2016-11-12": 1,
+          "2017-02-05": 1,
+          "2017-04-10": 1,
+          "2018-05-10": 1
+        },
+        "cardinality": "low"
+      },
+      "turn:lanes:backward": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "through|right": 2,
+          "left;through|through;right": 1,
+          "left;through|through": 1,
+          "left|through": 1,
+          "right|through": 1
+        },
+        "cardinality": "low"
+      },
+      "tunnel": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "yes": 6
+        },
+        "cardinality": "low"
+      },
+      "wikimedia_commons": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 6,
+        "distinct_values": {
+          "Category:Samuel Beckett Bridge": 3,
+          "Category:Talbot Memorial Bridge": 3
+        },
+        "cardinality": "low"
+      },
+      "old_name:c14": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 5,
+        "distinct_values": {
+          "Street of the theng-mote": 5
+        },
+        "cardinality": "low"
+      },
+      "source:name": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 5,
+        "distinct_values": {
+          "sign": 5
+        },
+        "cardinality": "low"
+      },
+      "maxheight": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 5,
+        "distinct_values": {
+          "5.06": 2,
+          "5.07": 2,
+          "2.36": 1
+        },
+        "cardinality": "low"
+      },
+      "mapillary": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 5,
+        "distinct_values": {
+          "265100938657631": 2,
+          "4150407288344442": 1,
+          "1269086950174542": 1,
+          "2809791562618824": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:ref": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 5,
+        "distinct_values": {
+          "OBC9B": 5
+        },
+        "cardinality": "low"
+      },
+      "embankment": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "yes": 4
+        },
+        "cardinality": "low"
+      },
+      "parking:both": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "no": 4
+        },
+        "cardinality": "low"
+      },
+      "motorcar": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "no": 4
+        },
+        "cardinality": "low"
+      },
+      "fixme": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Name suspect": 1,
+          "Does cycleway continue on from western end?": 1,
+          "Check direction": 1,
+          "Why does this path merely end at the junction as the contraflow goes all the way to the quay?": 1
+        },
+        "cardinality": "low"
+      },
+      "name:etymology": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Ratoath, County Meath.": 4
+        },
+        "cardinality": "low"
+      },
+      "placement": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "middle_of:1": 3,
+          "transition": 1
+        },
+        "cardinality": "low"
+      },
+      "was:highway": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 4,
+        "distinct_values": {
+          "residential": 4
+        },
+        "cardinality": "low"
+      },
+      "bridge:name:ga": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "Droichead na hInse": 3
+        },
+        "cardinality": "low"
+      },
+      "bridge:old_name": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "Sarah Bridge": 3
+        },
+        "cardinality": "low"
+      },
+      "bridge:old_name_date": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "1728": 3
+        },
+        "cardinality": "low"
+      },
+      "bridge:logainm:ref": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "No entry": 3
+        },
+        "cardinality": "low"
+      },
+      "bridge:logainm:url": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "No entry": 3
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:left:surface": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "paving_stones": 3
+        },
+        "cardinality": "low"
+      },
+      "lanes:left": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "2": 3
+        },
+        "cardinality": "low"
+      },
+      "lanes:right": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "2": 3
+        },
+        "cardinality": "low"
+      },
+      "bridge:movable": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "swing": 3
+        },
+        "cardinality": "low"
+      },
+      "bridge:structure": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "cable-stayed": 3
+        },
+        "cardinality": "low"
+      },
+      "cycleway:left": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "lane": 2,
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:left:lane": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "advisory": 2,
+          "exclusive": 1
+        },
+        "cardinality": "low"
+      },
+      "turn:lanes": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "through|right": 3
+        },
+        "cardinality": "low"
+      },
+      "est_width": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "3": 3
+        },
+        "cardinality": "low"
+      },
+      "note": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 3,
+        "distinct_values": {
+          "Trial road closure to motorists": 1,
+          "6-month trial of bollards and motor_vehicle=destination from August 2022.": 1,
+          "The spellings \"Belvedere\" and \"Belvidere\" are used in the neighbourhood.": 1
+        },
+        "cardinality": "low"
+      },
+      "sraidainm:ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "1379379": 2
+        },
+        "cardinality": "low"
+      },
+      "sraidainm:url": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "https://www.sraidainm.ie/1379379.aspx": 2
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:right:surface": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "concrete": 2
+        },
+        "cardinality": "low"
+      },
+      "source:cycleway:width": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "ARCore": 2
+        },
+        "cardinality": "low"
+      },
+      "shoulder": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "name:etymology:wikidata": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Q1312995": 2
+        },
+        "cardinality": "low"
+      },
+      "notes": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Built 1939 - https://www.jstor.org/stable/30082519": 1,
+          "Original bridge Clanbrassil Bridge, 1791. Replaced 31st January 1937.": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:right:lane": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "exclusive": 2
+        },
+        "cardinality": "low"
+      },
+      "placement:forward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "right_of:2": 1,
+          "right_of:1": 1
+        },
+        "cardinality": "low"
+      },
+      "kerb": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "flush": 2
+        },
+        "cardinality": "low"
+      },
+      "button_operated": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "traffic_signals:sound": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 2,
+        "distinct_values": {
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "cycleway:both:lane": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "advisory": 1
+        },
+        "cardinality": "low"
+      },
+      "bicycle:backward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "designated": 1
+        },
+        "cardinality": "low"
+      },
+      "bus:backward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "designated": 1
+        },
+        "cardinality": "low"
+      },
+      "lanes:psv:backward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "1": 1
+        },
+        "cardinality": "low"
+      },
+      "vehicle:backward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "maxheight:signed": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "bicycle_road": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:both": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "shared_lane": 1
+        },
+        "cardinality": "low"
+      },
+      "parking:right": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "street_side": 1
+        },
+        "cardinality": "low"
+      },
+      "image": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "http://storage2.openstreetcam.org/files/photo/2016/11/12/lth/27232_8851f_58277e68e20ae.jpg": 1
+        },
+        "cardinality": "low"
+      },
+      "comment": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "This cycleway stops dead on the western end. Cyclists are left with no option but to dismount": 1
+        },
+        "cardinality": "low"
+      },
+      "turn:backward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "right": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:right": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "motorcycle": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "oneway:foot": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_name2": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Clanbrassil Bridge": 1
+        },
+        "cardinality": "low"
+      },
+      "bus:lanes": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes|designated": 1
+        },
+        "cardinality": "low"
+      },
+      "tunnel:ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "UBB 1A": 1
+        },
+        "cardinality": "low"
+      },
+      "width:lanes:backward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "3.25": 1
+        },
+        "cardinality": "low"
+      },
+      "width:lanes:forward": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "3.25": 1
+        },
+        "cardinality": "low"
+      },
+      "surface:note": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "steinfliesen": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:cycleway:surface": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "2024-10-27": 1
+        },
+        "cardinality": "low"
+      },
+      "not:name": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Bridge Street": 1
+        },
+        "cardinality": "low"
+      },
+      "not:name:en": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Bridge Street": 1
+        },
+        "cardinality": "low"
+      },
+      "not:name:ga": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Sr\u00e1id An Droicid": 1
+        },
+        "cardinality": "low"
+      },
+      "proposed:oneway": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "was:oneway": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "-1": 1
+        },
+        "cardinality": "low"
+      },
+      "handrail:both": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      }
+    }
+  },
+  "osm_walking": {
+    "dataset": "OSM walking ways",
+    "n_features": 15119,
+    "fields": {
+      "highway": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 15119,
+        "distinct_values": {
+          "footway": 14461,
+          "pedestrian": 644,
+          "living_street": 14
+        },
+        "cardinality": "low"
+      },
+      "osm_type": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 15119,
+        "distinct_values": {
+          "way": 15119
+        },
+        "cardinality": "low"
+      },
+      "osm_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 15119,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "3753994",
+          "4396038",
+          "4396044",
+          "4396053",
+          "4401567"
+        ]
+      },
+      "length_m": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 15119,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2.19",
+          "153.46",
+          "55.64",
+          "16.49",
+          "28.4"
+        ]
+      },
+      "surface": {
+        "fill_rate_pct": 45.6,
+        "non_null_count": 6892,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "asphalt",
+          "concrete",
+          "paving_stones",
+          "paved",
+          "sett"
+        ]
+      },
+      "footway": {
+        "fill_rate_pct": 33.7,
+        "non_null_count": 5090,
+        "distinct_values": {
+          "crossing": 2610,
+          "sidewalk": 2428,
+          "traffic_island": 37,
+          "link": 15
+        },
+        "cardinality": "low"
+      },
+      "lit": {
+        "fill_rate_pct": 22.9,
+        "non_null_count": 3456,
+        "distinct_values": {
+          "yes": 3009,
+          "no": 444,
+          "24/7": 3
+        },
+        "cardinality": "low"
+      },
+      "crossing": {
+        "fill_rate_pct": 16.7,
+        "non_null_count": 2520,
+        "distinct_values": {
+          "unmarked": 1138,
+          "traffic_signals": 749,
+          "marked": 354,
+          "uncontrolled": 174,
+          "pelican": 51,
+          "zebra": 39,
+          "informal": 15
+        },
+        "cardinality": "low"
+      },
+      "crossing:markings": {
+        "fill_rate_pct": 10.5,
+        "non_null_count": 1580,
+        "distinct_values": {
+          "no": 1138,
+          "yes": 287,
+          "lines": 114,
+          "zebra": 15,
+          "ladder": 13,
+          "surface": 12,
+          "pictograms": 1
+        },
+        "cardinality": "low"
+      },
+      "foot": {
+        "fill_rate_pct": 6.0,
+        "non_null_count": 901,
+        "distinct_values": {
+          "yes": 330,
+          "private": 297,
+          "permissive": 192,
+          "designated": 61,
+          "customers": 11,
+          "destination": 6,
+          "no": 2,
+          "permit": 2
+        },
+        "cardinality": "low"
+      },
+      "bicycle": {
+        "fill_rate_pct": 5.1,
+        "non_null_count": 773,
+        "distinct_values": {
+          "no": 288,
+          "yes": 185,
+          "private": 142,
+          "dismount": 104,
+          "permissive": 29,
+          "designated": 22,
+          "destination": 3
+        },
+        "cardinality": "low"
+      },
+      "name": {
+        "fill_rate_pct": 4.8,
+        "non_null_count": 726,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "St. Stephen's Green",
+          "Grafton Street",
+          "Mary Street",
+          "Liffey Street Upper",
+          "Capel Street"
+        ]
+      },
+      "smoothness": {
+        "fill_rate_pct": 3.9,
+        "non_null_count": 597,
+        "distinct_values": {
+          "good": 307,
+          "excellent": 233,
+          "intermediate": 47,
+          "bad": 8,
+          "horrible": 1,
+          "very_bad": 1
+        },
+        "cardinality": "low"
+      },
+      "access": {
+        "fill_rate_pct": 3.9,
+        "non_null_count": 592,
+        "distinct_values": {
+          "private": 335,
+          "permissive": 227,
+          "customers": 19,
+          "no": 7,
+          "destination": 3,
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "layer": {
+        "fill_rate_pct": 2.7,
+        "non_null_count": 403,
+        "distinct_values": {
+          "1": 285,
+          "-1": 79,
+          "2": 33,
+          "0": 3,
+          "-2": 2,
+          "-1.5": 1
+        },
+        "cardinality": "low"
+      },
+      "source": {
+        "fill_rate_pct": 2.4,
+        "non_null_count": 356,
+        "distinct_values": {
+          "Bing": 298,
+          "survey": 35,
+          "Bing Aerial Imagery (2021-02-22)": 10,
+          "yahoo": 5,
+          "DigitalGlobe": 2,
+          "aerial imagery;local knowledge": 1,
+          "Bing;local knowledge": 1,
+          "Survey": 1,
+          "visual survey;bing": 1,
+          "local knowledge;aerial imagery": 1,
+          "Esri World Imagery (2020-02-09)": 1
+        },
+        "cardinality": "low"
+      },
+      "crossing:island": {
+        "fill_rate_pct": 2.3,
+        "non_null_count": 347,
+        "distinct_values": {
+          "no": 251,
+          "yes": 96
+        },
+        "cardinality": "low"
+      },
+      "tactile_paving": {
+        "fill_rate_pct": 2.3,
+        "non_null_count": 346,
+        "distinct_values": {
+          "yes": 278,
+          "no": 68
+        },
+        "cardinality": "low"
+      },
+      "name:ga": {
+        "fill_rate_pct": 2.2,
+        "non_null_count": 328,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Faiche Stiabhna",
+          "Sr\u00e1id Grafton",
+          "C\u00fairt An D\u00e1ma",
+          "Sr\u00e1id Mhuire",
+          "Sr\u00e1id Life Uachtaracht"
+        ]
+      },
+      "bridge": {
+        "fill_rate_pct": 2.1,
+        "non_null_count": 322,
+        "distinct_values": {
+          "yes": 316,
+          "movable": 6
+        },
+        "cardinality": "low"
+      },
+      "area": {
+        "fill_rate_pct": 2.0,
+        "non_null_count": 304,
+        "distinct_values": {
+          "yes": 304
+        },
+        "cardinality": "low"
+      },
+      "width": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 249,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2",
+          "1",
+          "3",
+          "4",
+          "1.5"
+        ]
+      },
+      "name:en": {
+        "fill_rate_pct": 1.4,
+        "non_null_count": 217,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "St. Stephen's Green",
+          "Meeting House Square",
+          "Mary Street",
+          "Capel Street",
+          "Suffolk Street"
+        ]
+      },
+      "tunnel": {
+        "fill_rate_pct": 1.4,
+        "non_null_count": 207,
+        "distinct_values": {
+          "building_passage": 142,
+          "yes": 64,
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "horse": {
+        "fill_rate_pct": 1.2,
+        "non_null_count": 185,
+        "distinct_values": {
+          "no": 173,
+          "yes": 6,
+          "private": 6
+        },
+        "cardinality": "low"
+      },
+      "kerb": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 143,
+        "distinct_values": {
+          "flush": 61,
+          "yes": 50,
+          "lowered": 31,
+          "raised": 1
+        },
+        "cardinality": "low"
+      },
+      "oneway": {
+        "fill_rate_pct": 0.9,
+        "non_null_count": 129,
+        "distinct_values": {
+          "no": 65,
+          "yes": 64
+        },
+        "cardinality": "low"
+      },
+      "maxspeed": {
+        "fill_rate_pct": 0.8,
+        "non_null_count": 119,
+        "distinct_values": {
+          "30": 106,
+          "15": 8,
+          "10": 5
+        },
+        "cardinality": "low"
+      },
+      "logainm:ref": {
+        "fill_rate_pct": 0.7,
+        "non_null_count": 110,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "No entry",
+          "1381156",
+          "1383492",
+          "1383356",
+          "1383426"
+        ]
+      },
+      "logainm:url": {
+        "fill_rate_pct": 0.7,
+        "non_null_count": 110,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "No entry",
+          "https://www.logainm.ie/1381156.aspx",
+          "https://www.logainm.ie/1383492.aspx",
+          "https://www.logainm.ie/1383356.aspx",
+          "https://www.logainm.ie/1383426.aspx"
+        ]
+      },
+      "mapillary": {
+        "fill_rate_pct": 0.7,
+        "non_null_count": 104,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "507451010616648",
+          "209574467399582",
+          "1837135419787869",
+          "151974553533987",
+          "296199692041200"
+        ]
+      },
+      "motor_vehicle": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 94,
+        "distinct_values": {
+          "private": 37,
+          "no": 36,
+          "destination": 11,
+          "permissive": 8,
+          "permit": 1,
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "segregated": {
+        "fill_rate_pct": 0.6,
+        "non_null_count": 89,
+        "distinct_values": {
+          "no": 82,
+          "yes": 7
+        },
+        "cardinality": "low"
+      },
+      "survey:date": {
+        "fill_rate_pct": 0.5,
+        "non_null_count": 73,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2018-04-08",
+          "2016-07-05",
+          "2018-04-07",
+          "2018-04-27",
+          "2017-01-22"
+        ]
+      },
+      "incline": {
+        "fill_rate_pct": 0.5,
+        "non_null_count": 72,
+        "distinct_values": {
+          "down": 30,
+          "0%": 21,
+          "up": 17,
+          "yes": 3,
+          "30%": 1
+        },
+        "cardinality": "low"
+      },
+      "covered": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 55,
+        "distinct_values": {
+          "yes": 44,
+          "no": 4,
+          "colonnade": 3,
+          "partial": 3,
+          "arcade": 1
+        },
+        "cardinality": "low"
+      },
+      "level": {
+        "fill_rate_pct": 0.4,
+        "non_null_count": 54,
+        "distinct_values": {
+          "1": 28,
+          "0": 12,
+          "2": 12,
+          "3": 1,
+          "-1": 1
+        },
+        "cardinality": "low"
+      },
+      "public_transport": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 48,
+        "distinct_values": {
+          "platform": 48
+        },
+        "cardinality": "low"
+      },
+      "shelter": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 47,
+        "distinct_values": {
+          "yes": 39,
+          "no": 8
+        },
+        "cardinality": "low"
+      },
+      "check_date:surface": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 46,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "2026-02-17",
+          "2025-11-30",
+          "2025-05-05",
+          "2025-07-06",
+          "2026-01-13"
+        ]
+      },
+      "railway": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 46,
+        "distinct_values": {
+          "platform": 46
+        },
+        "cardinality": "low"
+      },
+      "bench": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 44,
+        "distinct_values": {
+          "yes": 38,
+          "no": 6
+        },
+        "cardinality": "low"
+      },
+      "wheelchair": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 43,
+        "distinct_values": {
+          "yes": 32,
+          "no": 9,
+          "designated": 1,
+          "limited": 1
+        },
+        "cardinality": "low"
+      },
+      "bin": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 42,
+        "distinct_values": {
+          "yes": 42
+        },
+        "cardinality": "low"
+      },
+      "noname": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 38,
+        "distinct_values": {
+          "yes": 38
+        },
+        "cardinality": "low"
+      },
+      "tram": {
+        "fill_rate_pct": 0.3,
+        "non_null_count": 38,
+        "distinct_values": {
+          "yes": 38
+        },
+        "cardinality": "low"
+      },
+      "ref": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 33,
+        "distinct_values": {
+          "L1441": 9,
+          "L1543": 5,
+          "L1323": 4,
+          "L1401": 3,
+          "L15219": 2,
+          "R138": 2,
+          "L91263": 1,
+          "OBO 12": 1,
+          "L1311": 1,
+          "R": 1,
+          "L15567": 1,
+          "L5176": 1,
+          "OBG5B": 1,
+          "OBO 15": 1
+        },
+        "cardinality": "low"
+      },
+      "lanes": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 33,
+        "distinct_values": {
+          "1": 18,
+          "2": 15
+        },
+        "cardinality": "low"
+      },
+      "traffic_calming": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 28,
+        "distinct_values": {
+          "table": 20,
+          "yes": 5,
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "button_operated": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 28,
+        "distinct_values": {
+          "yes": 28
+        },
+        "cardinality": "low"
+      },
+      "check_date": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 25,
+        "distinct_values": {
+          "2026-02-13": 10,
+          "2026-02-23": 7,
+          "2025-07-06": 3,
+          "2026-02-17": 2,
+          "2026-08-04": 1,
+          "2025-06-01": 1,
+          "2026-03-07": 1
+        },
+        "cardinality": "low"
+      },
+      "paving_stones:material": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 25,
+        "distinct_values": {
+          "concrete": 17,
+          "stone": 8
+        },
+        "cardinality": "low"
+      },
+      "old_name": {
+        "fill_rate_pct": 0.2,
+        "non_null_count": 23,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Wellington Bridge",
+          "King's Bridge",
+          "East Link Bridge",
+          "Purdon Street",
+          "Leather lane (until 1708)"
+        ]
+      },
+      "note": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 22,
+        "distinct_values": {
+          "Good vehicles are only allowed between 7am and 11am (cf. goods:opening_hours key)": 4,
+          "Sign did not use apostrophe": 3,
+          "Pedestrians can walk both ways on this. However vehicles afterhours can go on this road, and the one way applies to them": 2,
+          "Legally a regional route, but functionally a cul de sac.": 2,
+          "Tram and pedestrian only": 2,
+          "Fake way for routing purpose": 2,
+          "This might be better as footway": 1,
+          "Deliveries only 06:00-11:00": 1,
+          "Very narrow lane": 1,
+          "Some of the houses here might have Ash Grove addresses, while others have Park Terrace addresses.": 1,
+          "Taxi stand removed as part of Luas Cross City works.": 1,
+          "Access restricted": 1,
+          "No cycling access due to inadequate parapet height.": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_name:ga": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 22,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Sr\u00e1id na Parlaiminte",
+          "B\u00f3thar Charn Locha",
+          "B\u00f3thar Speir\u00edn",
+          "Sr\u00e1id S\u00edrriam \u00cdochtarach",
+          "Cearn\u00f3g Chnoc\u00e1n Aoibhinn"
+        ]
+      },
+      "fixme": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 18,
+        "distinct_values": {
+          "Check for gates": 5,
+          "Check name.": 2,
+          "This is not the precise layout of the path.": 2,
+          "Where is this path?": 1,
+          "not complete": 1,
+          "bridge:ref": 1,
+          "Path or road?": 1,
+          "Does this connect to Aughrim Street?": 1,
+          "Check spelling": 1,
+          "check details": 1,
+          "Steps?": 1,
+          "double check where this connects": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:lit": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 18,
+        "distinct_values": {
+          "2026-02-13": 10,
+          "2026-02-23": 7,
+          "2022-08-22": 1
+        },
+        "cardinality": "low"
+      },
+      "wikidata": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 17,
+        "distinct_values": {
+          "Q55622320": 4,
+          "Q987447": 2,
+          "Q4972306": 2,
+          "Q6797636": 1,
+          "Q95492779": 1,
+          "Q6858800": 1,
+          "Q106686854": 1,
+          "Q5728802": 1,
+          "Q1824511": 1,
+          "Q6070917": 1,
+          "Q369401": 1,
+          "Q304582": 1
+        },
+        "cardinality": "low"
+      },
+      "sidewalk": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 16,
+        "distinct_values": {
+          "both": 8,
+          "separate": 4,
+          "right": 2,
+          "left": 1,
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:ref": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 15,
+        "distinct_values": {
+          "OBR58A": 3,
+          "OBB13": 2,
+          "OBB10": 2,
+          "OBC8B": 1,
+          "OBR65a": 1,
+          "OBB4A": 1,
+          "OBC5": 1,
+          "OBB10a": 1,
+          "OBR58B": 1,
+          "OBG4a": 1,
+          "OBO 2": 1
+        },
+        "cardinality": "low"
+      },
+      "ramp:wheelchair": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 15,
+        "distinct_values": {
+          "yes": 15
+        },
+        "cardinality": "low"
+      },
+      "golf": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 13,
+        "distinct_values": {
+          "path": 13
+        },
+        "cardinality": "low"
+      },
+      "wikipedia": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 12,
+        "distinct_values": {
+          "en:Mary Street, Dublin": 4,
+          "en:East-Link (Dublin)": 2,
+          "en:Mayor Square": 1,
+          "en:Millennium Bridge (Dublin)": 1,
+          "en:Henry Street, Dublin": 1,
+          "en:Talbot Mall": 1,
+          "en:Se\u00e1n O'Casey Bridge": 1,
+          "en:Talbot Memorial Bridge": 1
+        },
+        "cardinality": "low"
+      },
+      "source:old_name": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 12,
+        "distinct_values": {
+          "C T Macready": 4,
+          "Dublin Street Names C T M'Cready": 3,
+          "Dublin Street Names by C.T.McCready": 2,
+          "Neal Doherty 'Streets of Dublin'": 1,
+          "T C Macready": 1,
+          "Dublin Street Names by C.T.McCready and various maps": 1
+        },
+        "cardinality": "low"
+      },
+      "lane_markings": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 12,
+        "distinct_values": {
+          "no": 10,
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "created_by": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 12,
+        "distinct_values": {
+          "Potlatch 0.10c": 7,
+          "JOSM": 4,
+          "Potlatch 0.10b": 1
+        },
+        "cardinality": "low"
+      },
+      "cutting": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 12,
+        "distinct_values": {
+          "yes": 12
+        },
+        "cardinality": "low"
+      },
+      "alt_name": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 11,
+        "distinct_values": {
+          "Liffey Bridge": 2,
+          "Front Square": 2,
+          "East-Link Bridge": 2,
+          "South Bull Wall": 1,
+          "Millenium Bridge;Milenium Bridge": 1,
+          "Thundercat Alley": 1,
+          "The Narrows": 1,
+          "Fitzpatrick Cottages": 1
+        },
+        "cardinality": "low"
+      },
+      "oneway:bicycle": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 11,
+        "distinct_values": {
+          "no": 9,
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "traffic_signals:sound": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 10,
+        "distinct_values": {
+          "yes": 9,
+          "walk": 1
+        },
+        "cardinality": "low"
+      },
+      "crossing:signals": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 10,
+        "distinct_values": {
+          "yes": 10
+        },
+        "cardinality": "low"
+      },
+      "start_date": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 9,
+        "distinct_values": {
+          "1990s": 5,
+          "1816": 2,
+          "2008": 1,
+          "1980s": 1
+        },
+        "cardinality": "low"
+      },
+      "indoor": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 9,
+        "distinct_values": {
+          "yes": 8,
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "operator": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 9,
+        "distinct_values": {
+          "Luas - Transdev Dublin Light Rail Limited": 8,
+          "Dublin City Council": 1
+        },
+        "cardinality": "low"
+      },
+      "informal": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 9,
+        "distinct_values": {
+          "yes": 9
+        },
+        "cardinality": "low"
+      },
+      "motorcar": {
+        "fill_rate_pct": 0.1,
+        "non_null_count": 8,
+        "distinct_values": {
+          "no": 8
+        },
+        "cardinality": "low"
+      },
+      "cycleway:both": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 7,
+        "distinct_values": {
+          "no": 5,
+          "track": 2
+        },
+        "cardinality": "low"
+      },
+      "description": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 7,
+        "distinct_values": {
+          "Steep hill": 4,
+          "Temporarily closed to access. ": 1,
+          "Overhead walkway between two parts of Trinity College Dublin": 1,
+          "lock can be passed on foot": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:left": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 7,
+        "distinct_values": {
+          "no": 6,
+          "separate": 1
+        },
+        "cardinality": "low"
+      },
+      "wikimedia_commons": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 7,
+        "distinct_values": {
+          "Category:East Link Bridge": 2,
+          "Category:Millennium Bridge (Dublin)": 1,
+          "Category:Special Olympics (sculpture)": 1,
+          "Category:Liffey Service Tunnel": 1,
+          "Category:Sean O'Casey Bridge": 1,
+          "Category:Talbot Memorial Bridge": 1
+        },
+        "cardinality": "low"
+      },
+      "ramp": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 7,
+        "distinct_values": {
+          "yes": 7
+        },
+        "cardinality": "low"
+      },
+      "step_count": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 7,
+        "distinct_values": {
+          "19": 3,
+          "1": 1,
+          "4": 1,
+          "13": 1,
+          "5": 1
+        },
+        "cardinality": "low"
+      },
+      "material": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 6,
+        "distinct_values": {
+          "sett": 1,
+          "steel": 1,
+          "concrete": 1,
+          "granite": 1,
+          "asphalt": 1,
+          "iron": 1
+        },
+        "cardinality": "low"
+      },
+      "year_of_construction": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 6,
+        "distinct_values": {
+          "1984": 2,
+          "1999": 1,
+          "~1935": 1,
+          "2005": 1,
+          "2019": 1
+        },
+        "cardinality": "low"
+      },
+      "handrail": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 6,
+        "distinct_values": {
+          "yes": 4,
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "old_name_date": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 6,
+        "distinct_values": {
+          "1756": 3,
+          "1728": 1,
+          "1190": 1,
+          "1816-1922": 1
+        },
+        "cardinality": "low"
+      },
+      "footway:surface": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 6,
+        "distinct_values": {
+          "asphalt": 5,
+          "concrete": 1
+        },
+        "cardinality": "low"
+      },
+      "website": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 5,
+        "distinct_values": {
+          "https://www.graftonstreet.ie/": 5
+        },
+        "cardinality": "low"
+      },
+      "bridge:movable": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 5,
+        "distinct_values": {
+          "bascule": 3,
+          "retractable": 1,
+          "swing": 1
+        },
+        "cardinality": "low"
+      },
+      "departures_board": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 5,
+        "distinct_values": {
+          "realtime": 5
+        },
+        "cardinality": "low"
+      },
+      "embankment": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 5,
+        "distinct_values": {
+          "yes": 5
+        },
+        "cardinality": "low"
+      },
+      "bridge:name": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 4,
+        "distinct_values": {
+          "Cherry Orchard Footbridge": 1,
+          "Khyber Pass Footbridge": 1,
+          "Islandbridge": 1,
+          "Conyngham Road Bridge": 1
+        },
+        "cardinality": "low"
+      },
+      "train": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 4,
+        "distinct_values": {
+          "yes": 4
+        },
+        "cardinality": "low"
+      },
+      "goods": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 4,
+        "distinct_values": {
+          "yes": 4
+        },
+        "cardinality": "low"
+      },
+      "goods:opening_hours": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 4,
+        "distinct_values": {
+          "07:00-11:00": 4
+        },
+        "cardinality": "low"
+      },
+      "trail_visibility": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 4,
+        "distinct_values": {
+          "excellent": 4
+        },
+        "cardinality": "low"
+      },
+      "traffic_signals:vibration": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 4,
+        "distinct_values": {
+          "yes": 3,
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:both:surface": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "paving_stones": 3
+        },
+        "cardinality": "low"
+      },
+      "ski": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "snowmobile": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "waterway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "lock_gate": 3
+        },
+        "cardinality": "low"
+      },
+      "source:width": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "ARCore": 3
+        },
+        "cardinality": "low"
+      },
+      "alt_name:en": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "Se\u00e1n Heuston Bridge": 2,
+          "Front Square": 1
+        },
+        "cardinality": "low"
+      },
+      "loc_name": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "The 39 Steps": 2,
+          "The Gutty": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 2,
+          "opposite": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:structure": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "suspension": 1,
+          "truss": 1,
+          "beam": 1
+        },
+        "cardinality": "low"
+      },
+      "vehicle": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "proposed:oneway:bicycle": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "panoramax": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "91e31679-8135-429b-80f9-e4f6b0375ce5": 1,
+          "1834b277-8d91-48b4-b5b8-11225f55aace": 1,
+          "9abe43e1-a38e-44fb-9dde-a5f826e7d235": 1
+        },
+        "cardinality": "low"
+      },
+      "man_made": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "pier": 2,
+          "bridge": 1
+        },
+        "cardinality": "low"
+      },
+      "name:etymology": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "Carnlough, County Antrim.": 2,
+          "William Williams": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:shelter": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "2025-10-18": 3
+        },
+        "cardinality": "low"
+      },
+      "network": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "Luas": 2,
+          "lcn": 1
+        },
+        "cardinality": "low"
+      },
+      "name:ga:absent": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "yes": 3
+        },
+        "cardinality": "low"
+      },
+      "hgv": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 3,
+        "distinct_values": {
+          "no": 3
+        },
+        "cardinality": "low"
+      },
+      "cycleway:both:oneway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "cycleway:both:segregated": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "no": 2
+        },
+        "cardinality": "low"
+      },
+      "name:zh": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "\u534a\u4fbf\u58eb\u6865": 1,
+          "\u534a\u5206\u6865": 1
+        },
+        "cardinality": "low"
+      },
+      "place": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "square": 2
+        },
+        "cardinality": "low"
+      },
+      "alt_name:ga1": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Sr\u00e1id \u00d3 M\u00f3rdha": 1,
+          "Sr\u00e1id L\u00edom\u00f3id": 1
+        },
+        "cardinality": "low"
+      },
+      "was:highway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "tertiary": 2
+        },
+        "cardinality": "low"
+      },
+      "image": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "http://storage2.openstreetcam.org/files/photo/2016/11/12/lth/27199_d7ced_58277ebea9922.jpg": 1,
+          "http://storage2.openstreetcam.org/files/photo/2016/11/12/lth/27232_987eb_58277e843f712.jpg": 1
+        },
+        "cardinality": "low"
+      },
+      "old_name:1922-1941": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Sarsfield Bridge": 2
+        },
+        "cardinality": "low"
+      },
+      "old_name:1922-1942": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Queen Maeves Bridge": 2
+        },
+        "cardinality": "low"
+      },
+      "name:left": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Doon Court": 2
+        },
+        "cardinality": "low"
+      },
+      "name:right": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Knowth Court": 2
+        },
+        "cardinality": "low"
+      },
+      "source:name": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Ballyfermot: Building a Community, 1948-2006 (Ken Larkin)": 2
+        },
+        "cardinality": "low"
+      },
+      "parking:both": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "lane": 2
+        },
+        "cardinality": "low"
+      },
+      "parking:both:orientation": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "parallel": 2
+        },
+        "cardinality": "low"
+      },
+      "passenger_information_display": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "name:etymology:wikidata": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Q16008029": 2
+        },
+        "cardinality": "low"
+      },
+      "name:etymology:wikipedia": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "en:Rosie Hackett": 2
+        },
+        "cardinality": "low"
+      },
+      "old_name:source": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "old map": 2
+        },
+        "cardinality": "low"
+      },
+      "was:oneway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "yes": 2
+        },
+        "cardinality": "low"
+      },
+      "leisure": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "track": 1,
+          "slipway": 1
+        },
+        "cardinality": "low"
+      },
+      "opening_hours": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Mo-Su 07:00-22:00": 2
+        },
+        "cardinality": "low"
+      },
+      "crossing_ref": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "pelican": 2
+        },
+        "cardinality": "low"
+      },
+      "old_name_1": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Metal Bridge": 1,
+          "Essex Bridge": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:right": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "lane": 1,
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "wheelchair:description": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 2,
+        "distinct_values": {
+          "Quite steep, possibly too steep.": 1,
+          "Exceptionally steep.": 1
+        },
+        "cardinality": "low"
+      },
+      "bicycle:signed": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "old_name:1667-1839": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Chequer Lane": 1
+        },
+        "cardinality": "low"
+      },
+      "old_name:1577-1776": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Butter Lane": 1
+        },
+        "cardinality": "low"
+      },
+      "architect": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Howley Harrington Architects": 1
+        },
+        "cardinality": "low"
+      },
+      "old_name:-1834": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Gouldings Ride": 1
+        },
+        "cardinality": "low"
+      },
+      "alt_name:ga2": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "East\u00e1it R\u00e1th T\u00f3": 1
+        },
+        "cardinality": "low"
+      },
+      "motor_vehicle:conditional": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "destination @ (06:00-11:00)": 1
+        },
+        "cardinality": "low"
+      },
+      "turn:lanes": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "left|right": 1
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:left": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "separate": 1
+        },
+        "cardinality": "low"
+      },
+      "sidewalk:right": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "no": 1
+        },
+        "cardinality": "low"
+      },
+      "goods:conditional": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes @ (06:00-11:00)": 1
+        },
+        "cardinality": "low"
+      },
+      "hgv:conditional": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes @ (06:00-11:00)": 1
+        },
+        "cardinality": "low"
+      },
+      "ownership": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "private": 1
+        },
+        "cardinality": "low"
+      },
+      "tracktype": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "grade4": 1
+        },
+        "cardinality": "low"
+      },
+      "railing": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "both": 1
+        },
+        "cardinality": "low"
+      },
+      "year_built": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "1820": 1
+        },
+        "cardinality": "low"
+      },
+      "artist:wikidata": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Q15529061": 1
+        },
+        "cardinality": "low"
+      },
+      "artist_name": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "John Behan": 1
+        },
+        "cardinality": "low"
+      },
+      "historic": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "monument": 1
+        },
+        "cardinality": "low"
+      },
+      "landuse": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "recreation_ground": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:tactile_paving": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "2023-09-05": 1
+        },
+        "cardinality": "low"
+      },
+      "was:width": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "6": 1
+        },
+        "cardinality": "low"
+      },
+      "maxheight": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "below_default": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:bin": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "2022-11-08": 1
+        },
+        "cardinality": "low"
+      },
+      "driveway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "pipestem": 1
+        },
+        "cardinality": "low"
+      },
+      "sport": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "running": 1
+        },
+        "cardinality": "low"
+      },
+      "builder": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Ed. Z\u00fcblin AG;Cleary & Doyle Contracting Limited": 1
+        },
+        "cardinality": "low"
+      },
+      "engineer": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Atkins": 1
+        },
+        "cardinality": "low"
+      },
+      "location": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "underwater": 1
+        },
+        "cardinality": "low"
+      },
+      "operator:website": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "https://www.dublincity.ie/": 1
+        },
+        "cardinality": "low"
+      },
+      "operator:wikidata": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Q4810766": 1
+        },
+        "cardinality": "low"
+      },
+      "check_date:bench": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "2023-01-22": 1
+        },
+        "cardinality": "low"
+      },
+      "structure": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "tunnel": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:name:ga": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Droichead na hInse": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:old_name": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Sarah Bridge": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:old_name_date": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "1728": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:colour": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "brown": 1
+        },
+        "cardinality": "low"
+      },
+      "bridge:material": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "steel": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:right:oneway": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "-1": 1
+        },
+        "cardinality": "low"
+      },
+      "service": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "slipway": 1
+        },
+        "cardinality": "low"
+      },
+      "cycleway:surface": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "concrete": 1
+        },
+        "cardinality": "low"
+      },
+      "bicycle_road": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "surface:note": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "Steinfliesen": 1
+        },
+        "cardinality": "low"
+      },
+      "stroller": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "vehicle:conditional": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "delivery @ (06:00-11:00)": 1
+        },
+        "cardinality": "low"
+      },
+      "raised": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "towpath": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "flood_prone": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      },
+      "parking:left": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "street_side": 1
+        },
+        "cardinality": "low"
+      },
+      "parking:left:orientation": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "parallel": 1
+        },
+        "cardinality": "low"
+      },
+      "traffic_signals:arrow": {
+        "fill_rate_pct": 0.0,
+        "non_null_count": 1,
+        "distinct_values": {
+          "yes": 1
+        },
+        "cardinality": "low"
+      }
+    }
+  },
+  "osm_bus_routes": {
+    "dataset": "OSM bus route segments",
+    "n_features": 20000,
+    "fields": {
+      "relation_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 20000,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "383470",
+          "405696",
+          "558313",
+          "18359",
+          "405550"
+        ]
+      },
+      "way_ref": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 20000,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "682944440",
+          "372477011",
+          "156375812",
+          "129211802",
+          "10906625"
+        ]
+      },
+      "operator": {
+        "fill_rate_pct": 99.4,
+        "non_null_count": 19881,
+        "distinct_values": {
+          "Dublin Bus": 13746,
+          "J.J. Kavanagh & Sons": 1649,
+          "Bus \u00c9ireann": 1067,
+          "Go-Ahead Ireland": 975,
+          "Aircoach": 970,
+          "Swords Express": 545,
+          "Translink": 529,
+          "Saint Kevins Bus Service": 312,
+          "Dublin Coach": 88
+        },
+        "cardinality": "low"
+      },
+      "name": {
+        "fill_rate_pct": 96.6,
+        "non_null_count": 19317,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Tramore - Waterford - Dublin Airport",
+          "Dublin Airport - Waterford - Tramore",
+          "Bus 20: Galway \u2192 Dublin Airport",
+          "Bus E1: Northwood \u2192 Ballywaltrim",
+          "Bus 44: DCU \u2192 Enniskerry"
+        ]
+      },
+      "ref": {
+        "fill_rate_pct": 93.1,
+        "non_null_count": 18615,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "736",
+          "44",
+          "20",
+          "11",
+          "39"
+        ]
+      },
+      "role": {
+        "fill_rate_pct": 1.6,
+        "non_null_count": 310,
+        "distinct_values": {
+          "forward": 258,
+          "backward": 46,
+          "west": 2,
+          "platform_entry_only": 1,
+          "south": 1,
+          "east": 1,
+          "north": 1
+        },
+        "cardinality": "low"
+      }
+    }
+  },
+  "gov_stops": {
+    "dataset": "GTFS Dublin stops",
+    "n_rows": 5033,
+    "fields": {
+      "stop_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 5033,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "822008203",
+          "822008204",
+          "822008205",
+          "822008206",
+          "822008208"
+        ]
+      },
+      "stop_code": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 5033,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "8203",
+          "8204",
+          "8205",
+          "8206",
+          "8208"
+        ]
+      },
+      "stop_name": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 5033,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Parnell Square West",
+          "Parnell Sq West",
+          "\u00c1ras an Uachtar\u00e1in",
+          "Dublin Zoo",
+          "Park Gates"
+        ]
+      },
+      "stop_lat": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 5033,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "53.36469",
+          "53.35938",
+          "53.35173",
+          "53.34884",
+          "53.348995"
+        ]
+      },
+      "stop_lon": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 5033,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "-6.33167",
+          "-6.32384",
+          "-6.30548",
+          "-6.29777",
+          "-6.298737"
+        ]
+      }
+    }
+  },
+  "gov_routes": {
+    "dataset": "GTFS Dublin routes",
+    "n_rows": 172,
+    "fields": {
+      "route_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 172,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "1 1 e a",
+          "1 11 c a",
+          "1 116 c a",
+          "1 118 c a",
+          "1 11B a"
+        ]
+      },
+      "agency_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 172,
+        "distinct_values": {
+          "1": 116,
+          "3": 44,
+          "NTLK": 12
+        },
+        "cardinality": "low"
+      },
+      "route_short_name": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 172,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "1",
+          "11",
+          "116",
+          "118",
+          "11B"
+        ]
+      },
+      "route_long_name": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 172,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "Sandymount - O'Connell Street - Santry",
+          "Phoenix Park - Sandyford Business District",
+          "Whitechurch - Parnell Square",
+          "Kilternan - Eden Quay",
+          "Phoenix Park - Donnybrook"
+        ]
+      },
+      "route_type": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 172,
+        "distinct_values": {
+          "3": 172
+        },
+        "cardinality": "low"
+      }
+    }
+  },
+  "gov_bus_shapes": {
+    "dataset": "GTFS Dublin route shapes",
+    "n_features": 1423,
+    "fields": {
+      "shape_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1423,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "5828_1",
+          "5828_10",
+          "5828_100",
+          "5828_101",
+          "5828_102"
+        ]
+      },
+      "route_id": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1423,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "3 45A d a",
+          "3 104 d a",
+          "3 W4 a",
+          "3 197",
+          "3 102 d a"
+        ]
+      },
+      "route_short_name": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1423,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "45A",
+          "104",
+          "W4",
+          "197",
+          "102"
+        ]
+      },
+      "length_km": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 1423,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "20.4759",
+          "19.9029",
+          "11.3349",
+          "9.0881",
+          "20.039"
+        ]
+      }
+    }
+  },
+  "gov_cycle_network": {
+    "dataset": "NTA cycle network",
+    "n_features": 4410,
+    "fields": {
+      "FID": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 4410,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "BIKE": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 4410,
+        "distinct_values": {
+          "BIKE_LANE": 1651,
+          "BIKE_FRIENDLY_PEDESTRIAN_PATH": 1514,
+          "SEPARATE_TRAIL": 642,
+          "NON_TRAFFIC_TRAIL": 559,
+          "SHARED_ROAD": 43,
+          "CYCLE_LANE": 1
+        },
+        "cardinality": "low"
+      },
+      "Shape_Leng": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 4410,
+        "cardinality": "high (free text / id-like)",
+        "sample_values": [
+          "89.5952345473",
+          "261.89170707",
+          "85.0446745982",
+          "325.411664747",
+          "128.666432417"
+        ]
+      },
+      "DIR": {
+        "fill_rate_pct": 100.0,
+        "non_null_count": 4410,
+        "distinct_values": {
+          "Forward": 3500,
+          "Bi-Directional": 905,
+          "Reverse": 5
+        },
+        "cardinality": "low"
+      }
+    }
+  }
+}

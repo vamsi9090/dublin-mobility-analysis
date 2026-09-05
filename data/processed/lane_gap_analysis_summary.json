@@ -1,0 +1,12 @@
+{
+  "buffer_tolerance_m": 20.0,
+  "gov_2007_km_in_boundary": 89.08,
+  "osm_2026_km_in_boundary": 24.31,
+  "gov_km_confirmed_by_osm": 14.95,
+  "gov_km_missing_from_osm": 74.13,
+  "gov_pct_missing_from_osm": 83.2,
+  "osm_km_confirmed_by_2007_gov": 14.79,
+  "osm_km_not_in_2007_gov": 9.52,
+  "osm_pct_not_in_2007_gov": 39.1,
+  "gap_features_count": 325
+}

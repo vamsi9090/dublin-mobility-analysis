@@ -1,0 +1,23 @@
+{
+  "by_category_count": {
+    "on_road_lane": 266,
+    "on_road_shared_lane": 12,
+    "on_road_track": 25,
+    "dedicated_track": 612,
+    "crossing": 189,
+    "shared_unsegregated": 350,
+    "shared_segregated": 110,
+    "shared_sidewalk": 36
+  },
+  "by_category_length_km": {
+    "on_road_lane": 25.58,
+    "on_road_shared_lane": 2.3,
+    "on_road_track": 5.15,
+    "dedicated_track": 38.84,
+    "crossing": 1.7,
+    "shared_unsegregated": 24.54,
+    "shared_segregated": 26.04,
+    "shared_sidewalk": 1.37
+  },
+  "total_length_km": 125.52
+}

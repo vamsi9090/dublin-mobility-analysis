@@ -1,0 +1,18 @@
+{
+  "buffer_tolerance_m": 15.0,
+  "osm_km": 121.26,
+  "nta_km": 258.97,
+  "dcc_km": 96.56,
+  "osm_covered_by_nta_km": 95.21,
+  "osm_gap_vs_nta_km": 26.04,
+  "nta_covered_by_osm_km": 129.47,
+  "nta_gap_vs_osm_km": 129.5,
+  "osm_covered_by_dcc_km": 53.33,
+  "osm_gap_vs_dcc_km": 67.93,
+  "dcc_covered_by_osm_km": 56.47,
+  "dcc_gap_vs_osm_km": 40.09,
+  "nta_covered_by_dcc_km": 102.3,
+  "nta_gap_vs_dcc_km": 156.66,
+  "dcc_covered_by_nta_km": 94.78,
+  "dcc_gap_vs_nta_km": 1.78
+}

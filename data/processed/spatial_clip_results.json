@@ -1,0 +1,25 @@
+{
+  "boundary_area_km2": 117.6,
+  "gov_stops_total": 5033,
+  "gov_stops_inside_dublin_city_boundary": 1879,
+  "gov_stops_outside_boundary_greater_dublin_area": 3154,
+  "osm_stops_total": 2098,
+  "osm_stops_inside_boundary": 2098,
+  "osm_stops_pct_inside": 100.0,
+  "gov_cycle_total_km_greater_dublin_area": 973.55,
+  "gov_cycle_km_inside_dublin_city_boundary": 259.88,
+  "gov_cycle_by_type_inside_boundary_km": {
+    "SEPARATE_TRAIL": 49.94,
+    "BIKE_FRIENDLY_PEDESTRIAN_PATH": 26.58,
+    "SHARED_ROAD": 1.61,
+    "NON_TRAFFIC_TRAIL": 38.67,
+    "BIKE_LANE": 143.07,
+    "CYCLE_LANE": 0.0
+  },
+  "osm_cycle_km_inside_boundary_reprojected": 121.24,
+  "osm_cycle_km_original_haversine_report": 125.525,
+  "osm_walk_km_inside_boundary_reprojected": 1026.18,
+  "osm_walk_km_original_haversine_report": 1033.537,
+  "osm_taxi_total": 61,
+  "osm_taxi_inside_boundary": 61
+}

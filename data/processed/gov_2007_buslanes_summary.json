@@ -1,0 +1,10 @@
+{
+  "source": "2007 GDA Bus Lane Survey (Dublin Transportation Office, via data.gov.ie/NTA)",
+  "survey_period": "2007-06-01 to 2007-08-31",
+  "segments_parsed": 555,
+  "segments_skipped": 0,
+  "total_length_km_full_gda": 186.58,
+  "total_length_km_clipped_to_dublin_city": 89.08,
+  "comparison_osm_dublin_city_2026_km": 24.31,
+  "comparison_osm_greater_dublin_2026_km": 61.26
+}
