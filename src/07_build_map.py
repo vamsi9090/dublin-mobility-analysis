@@ -134,7 +134,7 @@ CYCLE_TYPE_COLORS = {
 cyc = add_geojson_layer(
     m, f"{DATA}/osm_cycling_classified.geojson", "Cycling infrastructure (125.5 km, by type)", "osm",
     style_function=lambda x: {"color": CYCLE_TYPE_COLORS.get(x["properties"]["cycle_type"], "#999"), "weight": 2.5, "opacity": 0.85},
-    show=True, osm_type="way", title_field="cycle_type_label",
+    show=False, osm_type="way", title_field="cycle_type_label",
     keep_fields={"osm_id", "name", "highway", "cycleway", "surface", "foot", "segregated", "length_m", "cycle_type", "cycle_type_label"},
     color="#1565c0",
     legend=[("Dedicated track (bikes only)", "#1565c0"), ("On-road painted lane", "#2e9e5b"),
@@ -148,7 +148,7 @@ with open(f"{ML}/osm__bus_stops.geojson", encoding="utf-8") as f:
 with open(f"{DATA}/osm_stops_unmatched.geojson", encoding="utf-8") as f:
     osm_unmatched = json.load(f)
 osm_unmatched_ids = {feat["properties"]["osm_id"] for feat in osm_unmatched["features"]}
-matched_fg = folium.FeatureGroup(show=True)
+matched_fg = folium.FeatureGroup(show=False)
 gap_osm_fg = folium.FeatureGroup(show=True)
 for feat in osm_stops["features"]:
     lon, lat = feat["geometry"]["coordinates"]
@@ -241,7 +241,7 @@ add_geojson_layer(
     m, buslane_display,
     "Bus lanes - Gov 2007 survey (555 seg, 186.6km GDA / 89.1km in Dublin City)", "gov",
     style_function=lambda x: {"color": "#c62828", "weight": 4, "opacity": 0.75},
-    show=True, color="#c62828",
+    show=False, color="#c62828",
 )
 
 with open(f"{DATA}/gov_stops_unmatched.geojson", encoding="utf-8") as f:
